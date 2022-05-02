@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>报错</title>
+      <link href="/2022/05/02/%E6%97%A5%E5%B8%B8%E6%8A%A5%E9%94%99%E5%B0%8F%E9%97%AE%E9%A2%98/"/>
+      <url>/2022/05/02/%E6%97%A5%E5%B8%B8%E6%8A%A5%E9%94%99%E5%B0%8F%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="日常报错"><a href="#日常报错" class="headerlink" title="日常报错"></a>日常报错</h1><p><img src="C:\Users\kk_white\Desktop\2022-05-02_205108.png" alt="2022-05-02_205108"></p><p>写代码时出现以上报错是因为类重名了</p><img src="C:\Users\kk_white\Desktop\2022-05-02_205344.png" alt="2022-05-02_205344" style="zoom:80%;" /><p>在不同 class文件中，并不区分大小写，可写入static类型规避</p><p><img src="C:\Users\kk_white\Desktop\2022-05-02_205939.png" alt="2022-05-02_205939"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分类2                   （Java学习笔记） </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Java笔记</title>
       <link href="/2022/04/30/Java%E7%AC%94%E8%AE%B0/"/>
       <url>/2022/04/30/Java%E7%AC%94%E8%AE%B0/</url>

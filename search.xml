@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Typroa使用</title>
+      <link href="/2022/06/02/Typroa%E4%BD%BF%E7%94%A8/"/>
+      <url>/2022/06/02/Typroa%E4%BD%BF%E7%94%A8/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="MarkDown数学公式学习"><a href="#MarkDown数学公式学习" class="headerlink" title="MarkDown数学公式学习"></a>MarkDown数学公式学习</h1><h2 id="1-公式环境"><a href="#1-公式环境" class="headerlink" title="1.公式环境"></a>1.公式环境</h2><ul><li>单$<ul><li>行内</li></ul></li><li>双$$<ul><li>单独一行居中</li></ul></li></ul><h2 id="2-角标"><a href="#2-角标" class="headerlink" title="2. 角标"></a>2. 角标</h2><ul><li>上标：<code>^</code>。例如：(2^5)</li><li>下标：<code>_</code>。例如：(H_2O)</li></ul><h2 id="3-运算符"><a href="#3-运算符" class="headerlink" title="3.运算符"></a>3.运算符</h2><ul><li><p>乘法</p><ul><li>点乘：<code>\cdot</code>(dot：点)。例如：(2 \cdot 3 &#x3D; 6)</li><li>叉乘：<code>\times</code>(times：乘以)。例如：(2 \times 3 &#x3D; 6)</li></ul></li><li><p>除法</p><ul><li><p>除号：<code>\div</code>(divsion：除法)。例如：(6 \div 2 &#x3D; 3)</p></li><li><p>分号：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\frac&#123;分子&#125;&#123;分母&#125;</span><br></pre></td></tr></table></figure><p>(fraction：分数)。例如：(\frac{6}{2}&#x3D;3)</p><ul><li>大一点的分号：<code>\dfrac&#123;分字&#125;&#123;分母&#125;</code>。例如：(\dfrac{6}{2}&#x3D;3)</li></ul></li></ul></li><li><p>加减号</p><ul><li>同±号：<code>\pm</code>(Plus minus：正负号)。例如：(2\pm3)</li></ul></li><li><p>根号</p><ul><li>平方根号：<code>\sqrt&#123;num&#125;</code>(square root：平方根)。例如：(\sqrt{4}&#x3D;2)</li></ul></li><li><p>异或</p><ul><li>异或：<code>\oplus</code>(oval：椭圆 plus：加号)。例如：(A\oplus B)</li><li>同或：<code>\odot</code>(oval：椭圆 dot：点)。例如：(A\oplus B\oplus C &#x3D;A\odot B\odot C)</li></ul></li><li><p>和</p><ul><li>和：<code>\sum</code>。例如(\sum_{i&#x3D;0}^5)</li></ul></li></ul><h2 id="4-关系符"><a href="#4-关系符" class="headerlink" title="4. 关系符"></a>4. 关系符</h2><ul><li>比大小<ul><li>大于等于：<code>\geq</code>(greater：较大的 equal：相等的 )。例如：(3\geq 2)</li><li>小于等于：<code>\leq</code>(less：较小的 equal：相等的)。例如：(2\leq 3)</li><li>约等于：<code>\approx</code>(approx：大约)。例如：(2.1\approx2)</li></ul></li><li>集合相关<ul><li>属于：<code>\in</code>(in：在……之内)。例如：(A\in B)</li><li>交集：<code>\cap</code>。例如：(A\cap B)</li><li>并集：<code>\cup</code>。例如：(A\cup B)</li></ul></li><li>分隔符<ul><li>绝对值：<code>\vert</code>。利润(\vert -2\vert)</li></ul></li><li>化学加热符<ul><li>化学加热符：<code>\triangleq</code>(triangularity：三角形 )。例如(Cu_2(OH)_2CO_3\triangleq2CuO+H_2O+ CO_2↑)</li></ul></li><li>积分<ul><li>积分号：<code>\int</code>(integral：积分)。例如：(\int_{m}^{n})</li><li>被积式：<code>\mathrm&#123;dv&#125;</code>(math：数学 rome：罗马)。例如：(\int f(x)\mathrm{dv}&#x3D;F(x)+C)</li></ul></li></ul><h2 id="5-希腊字母"><a href="#5-希腊字母" class="headerlink" title="5.希腊字母"></a>5.希腊字母</h2><ul><li>alpha：<code>\alpha</code>。(\alpha)</li><li>beta：<code>\beta</code>。(\beta)</li><li>epsilon：<code>\epsilon</code>。(\epsilon)</li><li>theta：<code>\theta</code>。(\theta)</li><li>lambda：<code>\lambda</code>。(\lambda)</li><li>rho：<code>\rho</code>。(\rho)</li></ul><h2 id="6-箭头"><a href="#6-箭头" class="headerlink" title="6.箭头"></a>6.箭头</h2><ul><li>向量<ul><li>向量：<code>\vec&#123;&#125;</code>。例如：(\vec{a})</li></ul></li><li>双箭头<ul><li>向右推出符：<code>\Longrightarrow</code>(Long：长的 right：右边 arrow：箭头)。例如：(A\Longrightarrow B)</li><li>向左推出符：<code>\Longleftarrow</code>(left：左边)。例如：(A\Longleftarrow B)</li></ul></li><li>单箭头<ul><li>向右推出符：<code>\longrightarrow</code>。例如：(A\longrightarrow B)</li><li>向左推出符：<code>\longleftarrow</code>。例如：(A\longleftarrow B)</li></ul></li></ul><h2 id="7-其他"><a href="#7-其他" class="headerlink" title="7.其他"></a>7.其他</h2><ul><li>空格<ul><li>单空格：<code>\quad</code>。例如：(A\quad B)</li><li>多空格：<code>\qquad</code>。例如：(A\qquad B)</li></ul></li><li>无穷<ul><li>无穷：<code>\infin</code>(infinite：无限的)。例如：(\infin)</li></ul></li><li>将角标转换为上下<ul><li><code>\limits</code>。例如(\sum\limits_{n}^{m})</li></ul></li><li>换行<ul><li><code>\\</code>。例如(A\B)</li></ul></li></ul><h2 id="8-数学环境-大括号"><a href="#8-数学环境-大括号" class="headerlink" title="8.数学环境-大括号"></a>8.数学环境-大括号</h2><p><code>\left\&#123; \begin&#123;array&#125;&#123;rcl&#125;XXXXX\end&#123;array&#125;\right.</code>。例如：</p><p>[\left{ \begin{array}{rcl} a&#x3D;b+c\b&#x3D;a+c \end{array}\right. ]</p><h3 id="9-数学环境-矩阵"><a href="#9-数学环境-矩阵" class="headerlink" title="9.数学环境-矩阵"></a>9.数学环境-矩阵</h3><p><code>\left\[\matrix&#123;XXXXX&#125;\right]</code>。例如：</p><p>[a &#x3D; \left[ \matrix{ \alpha_1 &amp; test1\ \alpha_2 &amp; test2\ \alpha_3 &amp; test3 } \right] ]</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分类4                   （Java学习笔记） </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>阿里云oss</title>
       <link href="/2022/05/22/%E9%98%BF%E9%87%8C%E4%BA%91OSS%E5%9B%BE%E5%BA%8A/"/>
       <url>/2022/05/22/%E9%98%BF%E9%87%8C%E4%BA%91OSS%E5%9B%BE%E5%BA%8A/</url>

@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>zerotier客户端连入moon节点</title>
+      <link href="/2023/06/09/%E5%B1%80%E5%9F%9F%E7%BD%91%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%BD%BF%E7%94%A8/"/>
+      <url>/2023/06/09/%E5%B1%80%E5%9F%9F%E7%BD%91%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%BD%BF%E7%94%A8/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="zerotier局域网客户端配置"><a href="#zerotier局域网客户端配置" class="headerlink" title="zerotier局域网客户端配置"></a>zerotier局域网客户端配置</h2><p>windows首先安装镜像文件到本机</p><p><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230609144623942.png" alt="image-20230609144623942"></p><p>安装成功后右击zerotier软件，点击’Join New Network’</p><p><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230609144815649.png" alt="image-20230609144815649"></p><p>在输入框内填入局域网idID</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">52b337794f50dc4d</span><br></pre></td></tr></table></figure><p><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230609144932144.png" alt="image-20230609144932144"></p><p>在点击”Join”之后会显示以加入局域网的ID，如下图中红框内容</p><p><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230609145304218.png" alt="image-20230609145304218"></p><p>在服务端可显示已加入的设备和分配的虚拟IP地址</p><p><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230609145538216.png" alt="image-20230609145538216"></p><p>虽然局域网搭建好了，但是由于zerotier服务器在国外，十分不稳定，故需要”跳板”服务器来进行中转，原理如下</p><p><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230609145942342.png" alt="image-20230609145942342"></p><p>下面演示如何在客户端加入moon节点。zerotier正常安装后，在系统c盘的Program Files (x86)内找到zerotier文件夹，进入后发现还有one文件夹，</p><p><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230609150500779.png" alt="image-20230609150500779"></p><p>运行zerotier指令需要在one文件夹内，于是首先要以管理员权限运行cmd</p><p><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230609150143721.png" alt="image-20230609150143721"></p><p>输入指令进入到one文件夹内，加入moon节点，成功后则显示”200 orbit ok”，在域网内成员列表中可看到各个成员，以及根服务器地址后可看到ip地址以及显示为moon模式，则客户端加入moon节点成功</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd /d C:\Program Files (x86)\ZeroTier\One</span><br><span class="line">zerotier-cli orbit 2fce4db2b2 2fce4db2b2</span><br><span class="line">zerotier-cli listpeers</span><br></pre></td></tr></table></figure><p><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230609151709817.png" alt="image-20230609151709817"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分类4                   （搭建局域网络） </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>51单片机</title>
       <link href="/2023/04/06/51%E5%8D%95%E7%89%87%E6%9C%BA%E4%BB%BF%E7%9C%9F/"/>
       <url>/2023/04/06/51%E5%8D%95%E7%89%87%E6%9C%BA%E4%BB%BF%E7%9C%9F/</url>

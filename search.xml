@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>(一)克隆Github仓库到本地</title>
+      <link href="/2023/07/05/Github%E5%A4%9A%E4%BA%BA%E5%8D%8F%E4%BD%9C/"/>
+      <url>/2023/07/05/Github%E5%A4%9A%E4%BA%BA%E5%8D%8F%E4%BD%9C/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>在无包含中文路径的文件夹中右键<br><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/20230704153651.png" alt="image.png"><br>单击Clone，然后在URL栏粘贴仓库的地址<br><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/20230704154144.png" alt="image.png"><br>仓库地址如下<br><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/20230704155427.png" alt="image.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分类5                   （Github多人协作） </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>zerotier客户端连入moon节点</title>
       <link href="/2023/06/09/%E5%B1%80%E5%9F%9F%E7%BD%91%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%BD%BF%E7%94%A8/"/>
       <url>/2023/06/09/%E5%B1%80%E5%9F%9F%E7%BD%91%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%BD%BF%E7%94%A8/</url>

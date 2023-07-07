@@ -4,9 +4,28 @@
   
     
     <entry>
+      <title>(二)本地子分支创建与推送</title>
+      <link href="/2023/07/06/Github%E5%A4%9A%E4%BA%BA%E5%8D%8F%E4%BD%9C%EF%BC%88%E4%BA%8C%EF%BC%89/"/>
+      <url>/2023/07/06/Github%E5%A4%9A%E4%BA%BA%E5%8D%8F%E4%BD%9C%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="一、创建本地子分支"><a href="#一、创建本地子分支" class="headerlink" title="一、创建本地子分支"></a>一、创建本地子分支</h1><p>右键本地仓库，选择“<code>切换/检出</code>”</p><p><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230707164547368.png" alt="image-20230707164547368"></p><p>勾选“<code>创建新分支</code>”，名字为“<code>master</code>”</p><p><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230707164809470.png" alt="image-20230707164809470"></p><h1 id="推送本地子分支"><a href="#推送本地子分支" class="headerlink" title="推送本地子分支"></a>推送本地子分支</h1><p>右键本地仓库，点击“<code>推送</code>”</p><p><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230707165108556.png" alt="image-20230707165108556"></p><p>选择“master”，点击确定</p><p><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230707165353165.png" alt="image-20230707165353165"></p><p>如下图则完成推送本地子分支“master”</p><p><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230707165522433.png" alt="image-20230707165522433"></p><p>在<a href="https://github.com/bowjacon/BIM_Demo/tree/main">github仓库</a>中如下操作即可看到提交的本地子分支</p><p><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230707170057429.png" alt="image-20230707170057429"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分类5                   （Github多人协作） </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>(一)克隆Github仓库到本地</title>
-      <link href="/2023/07/05/Github%E5%A4%9A%E4%BA%BA%E5%8D%8F%E4%BD%9C/"/>
-      <url>/2023/07/05/Github%E5%A4%9A%E4%BA%BA%E5%8D%8F%E4%BD%9C/</url>
+      <link href="/2023/07/05/Github%E5%A4%9A%E4%BA%BA%E5%8D%8F%E4%BD%9C%EF%BC%88%E4%B8%80%EF%BC%89/"/>
+      <url>/2023/07/05/Github%E5%A4%9A%E4%BA%BA%E5%8D%8F%E4%BD%9C%EF%BC%88%E4%B8%80%EF%BC%89/</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>在无包含中文路径的文件夹中右键<br><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/20230704153651.png" alt="image.png"><br>单击Clone，然后在URL栏粘贴仓库的地址<br><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/20230704154144.png" alt="image.png"><br>仓库地址如下<br><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/20230704155427.png" alt="image.png"></p>]]></content>
       

@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>(五)更新仓库</title>
+      <link href="/2023/07/11/Github%E5%A4%9A%E4%BA%BA%E5%8D%8F%E4%BD%9C%EF%BC%88%E4%BA%94%EF%BC%89/"/>
+      <url>/2023/07/11/Github%E5%A4%9A%E4%BA%BA%E5%8D%8F%E4%BD%9C%EF%BC%88%E4%BA%94%EF%BC%89/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>右键本地仓库，选择拉取</p><p><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230711211152039.png" alt="image-20230711211152039"></p><p>这里主要选择“<code>master</code>”分支，因为这为最新预览分支</p><p><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230711211345682.png" alt="image-20230711211345682"></p><p>若如下图所示，则更新仓库成功</p><p><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230711211640246.png" alt="image-20230711211640246"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分类5                   （Github多人协作） </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>(四)撤销操作</title>
       <link href="/2023/07/10/Github%E5%A4%9A%E4%BA%BA%E5%8D%8F%E4%BD%9C%EF%BC%88%E5%9B%9B%EF%BC%89/"/>
       <url>/2023/07/10/Github%E5%A4%9A%E4%BA%BA%E5%8D%8F%E4%BD%9C%EF%BC%88%E5%9B%9B%EF%BC%89/</url>

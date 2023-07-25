@@ -185,7 +185,7 @@
 <p>在led.c文件完成项目代码的编写（没有led.c文件，可点击source group1旁边的”+”进行展开）</p>
 <p><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/clip_image054.jpg" alt="img"></p>
 <p>以下为代码源码及注释</p>
-<p>#include&lt;reg52.h&gt;<br> sbit led1&#x3D;P1^0;&#x2F;&#x2F;指向P1.0口<br> main() {<br>   led1 &#x3D; 0;&#x2F;&#x2F;使此处引脚为低电平<br> }</p>
+<p>#include<reg52.h><br> sbit led1=P1^0;//指向P1.0口<br> main() {<br>   led1 = 0;//使此处引脚为低电平<br> }</p>
 <p>点击target，选择output选项，将create HEX file勾上，然后点击OK <img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/clip_image056.jpg" alt="img"></p>
 <p>点击translate、build图标</p>
 <p><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/clip_image058.jpg" alt="img"><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/clip_image060.jpg" alt="img"></p>
@@ -206,7 +206,6 @@
 <p><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/clip_image078.jpg" alt="img"></p>
 <p>以下为源码及注释</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;reg52.h&gt;</span><br><span class="line">sbit led1=P1^0;//指向P1.0口</span><br><span class="line">void delay500()&#123;//延迟500ms的函数</span><br><span class="line">    unsigned char a,b,c;</span><br><span class="line">    for(c=205;c&gt;0;c--)</span><br><span class="line">        for(b=116;b&gt;0;b--)</span><br><span class="line">            for(a=1;a&gt;0;a--);</span><br><span class="line">&#125;</span><br><span class="line">main() &#123;</span><br><span class="line">    while(1)&#123;</span><br><span class="line">        led1=0;//设为低电平</span><br><span class="line">        delay500();//延迟0.5s</span><br><span class="line">        led1=1;//设为高电平</span><br><span class="line">        delay500();//延迟0.5s</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
 <p>每次更新代码后都要重新translate、build</p>
 <p><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/clip_image079.jpg" alt="img"><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/clip_image080.jpg" alt="img"></p>
 <p>返回到proteus，重新模拟仿真</p>

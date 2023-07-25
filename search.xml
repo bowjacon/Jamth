@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>单片机知识扫盲</title>
+      <link href="/2023/07/25/%E5%8D%95%E7%89%87%E6%9C%BA%E7%9F%A5%E8%AF%86%E6%89%AB%E7%9B%B2/"/>
+      <url>/2023/07/25/%E5%8D%95%E7%89%87%E6%9C%BA%E7%9F%A5%E8%AF%86%E6%89%AB%E7%9B%B2/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>[toc]</p><h2 id="模电知识"><a href="#模电知识" class="headerlink" title="模电知识"></a>模电知识</h2><h3 id="推挽输出与开漏输出"><a href="#推挽输出与开漏输出" class="headerlink" title="推挽输出与开漏输出"></a>推挽输出与开漏输出</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">graph LR</span><br><span class="line">    A[高电平] --&gt; C[推挽输出]</span><br><span class="line">    B[低电平] --&gt; C[推挽输出]</span><br><span class="line">    B[低电平] --&gt; E[开漏输出]</span><br><span class="line">    D[高阻态] --&gt; E[开漏输出]</span><br><span class="line">    </span><br></pre></td></tr></table></figure><p>$$<br>推挽输出\left{<br>\begin{array}{ll}<br>    当输出为低电平时,电流流向内部,为挽(留)模式 \<br>    当输出为高电平时,电流流向外部,为推(开)模式<br>\end{array}<br>\right.<br>$$</p><p>※注意:开漏输出需外接上拉电阻</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分类7                   （单片机） </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>(五)更新仓库</title>
       <link href="/2023/07/11/Github%E5%A4%9A%E4%BA%BA%E5%8D%8F%E4%BD%9C%EF%BC%88%E4%BA%94%EF%BC%89/"/>
       <url>/2023/07/11/Github%E5%A4%9A%E4%BA%BA%E5%8D%8F%E4%BD%9C%EF%BC%88%E4%BA%94%EF%BC%89/</url>

@@ -42,25 +42,6 @@
     
     
     <entry>
-      <title>zerotier客户端连入moon节点</title>
-      <link href="/2023/07/29/%E5%B1%80%E5%9F%9F%E7%BD%91%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%BD%BF%E7%94%A8/"/>
-      <url>/2023/07/29/%E5%B1%80%E5%9F%9F%E7%BD%91%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%BD%BF%E7%94%A8/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="zerotier局域网客户端配置">zerotier局域网客户端配置</h2><p>windows首先安装镜像文件到本机</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230609144623942.png" alt="image-20230609144623942"><figcaption aria-hidden="true">image-20230609144623942</figcaption></figure><p>安装成功后右击zerotier软件，点击'Join New Network'</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230609144815649.png" alt="image-20230609144815649"><figcaption aria-hidden="true">image-20230609144815649</figcaption></figure><p>在输入框内填入局域网idID</p><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">52b337794f50dc4d</span><br></pre></td></tr></tbody></table></figure><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230609144932144.png" alt="image-20230609144932144"><figcaption aria-hidden="true">image-20230609144932144</figcaption></figure><p>在点击"Join"之后会显示以加入局域网的ID，如下图中红框内容</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230609145304218.png" alt="image-20230609145304218"><figcaption aria-hidden="true">image-20230609145304218</figcaption></figure><p>在服务端可显示已加入的设备和分配的虚拟IP地址</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230609145538216.png" alt="image-20230609145538216"><figcaption aria-hidden="true">image-20230609145538216</figcaption></figure><p>虽然局域网搭建好了，但是由于zerotier服务器在国外，十分不稳定，故需要"跳板"服务器来进行中转，原理如下</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230609145942342.png" alt="image-20230609145942342"><figcaption aria-hidden="true">image-20230609145942342</figcaption></figure><p>下面演示如何在客户端加入moon节点。zerotier正常安装后，在系统c盘的Program Files (x86)内找到zerotier文件夹，进入后发现还有one文件夹，</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230609150500779.png" alt="image-20230609150500779"><figcaption aria-hidden="true">image-20230609150500779</figcaption></figure><p>运行zerotier指令需要在one文件夹内，于是首先要以管理员权限运行cmd</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230609150143721.png" alt="image-20230609150143721"><figcaption aria-hidden="true">image-20230609150143721</figcaption></figure><p>输入指令进入到one文件夹内，加入moon节点，成功后则显示"200 orbit ok"，在域网内成员列表中可看到各个成员，以及根服务器地址后可看到ip地址以及显示为moon模式，则客户端加入moon节点成功</p><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">cd /d C:\Program Files (x86)\ZeroTier\One</span><br><span class="line">zerotier-cli orbit 2fce4db2b2 2fce4db2b2</span><br><span class="line">zerotier-cli listpeers</span><br></pre></td></tr></tbody></table></figure><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230609151709817.png" alt="image-20230609151709817"><figcaption aria-hidden="true">image-20230609151709817</figcaption></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> 分类4                   （搭建局域网络） </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>日常小报错</title>
       <link href="/2023/07/29/%E6%97%A5%E5%B8%B8%E6%8A%A5%E9%94%99%E5%B0%8F%E9%97%AE%E9%A2%98/"/>
       <url>/2023/07/29/%E6%97%A5%E5%B8%B8%E6%8A%A5%E9%94%99%E5%B0%8F%E9%97%AE%E9%A2%98/</url>
@@ -71,6 +52,25 @@
       <categories>
           
           <category> 分类2                   （Java学习笔记） </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>zerotier客户端连入moon节点</title>
+      <link href="/2023/07/29/%E5%B1%80%E5%9F%9F%E7%BD%91%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%BD%BF%E7%94%A8/"/>
+      <url>/2023/07/29/%E5%B1%80%E5%9F%9F%E7%BD%91%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%BD%BF%E7%94%A8/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="zerotier局域网客户端配置">zerotier局域网客户端配置</h2><p>windows首先安装镜像文件到本机</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230609144623942.png" alt="image-20230609144623942"><figcaption aria-hidden="true">image-20230609144623942</figcaption></figure><p>安装成功后右击zerotier软件，点击'Join New Network'</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230609144815649.png" alt="image-20230609144815649"><figcaption aria-hidden="true">image-20230609144815649</figcaption></figure><p>在输入框内填入局域网idID</p><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">52b337794f50dc4d</span><br></pre></td></tr></tbody></table></figure><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230609144932144.png" alt="image-20230609144932144"><figcaption aria-hidden="true">image-20230609144932144</figcaption></figure><p>在点击"Join"之后会显示以加入局域网的ID，如下图中红框内容</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230609145304218.png" alt="image-20230609145304218"><figcaption aria-hidden="true">image-20230609145304218</figcaption></figure><p>在服务端可显示已加入的设备和分配的虚拟IP地址</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230609145538216.png" alt="image-20230609145538216"><figcaption aria-hidden="true">image-20230609145538216</figcaption></figure><p>虽然局域网搭建好了，但是由于zerotier服务器在国外，十分不稳定，故需要"跳板"服务器来进行中转，原理如下</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230609145942342.png" alt="image-20230609145942342"><figcaption aria-hidden="true">image-20230609145942342</figcaption></figure><p>下面演示如何在客户端加入moon节点。zerotier正常安装后，在系统c盘的Program Files (x86)内找到zerotier文件夹，进入后发现还有one文件夹，</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230609150500779.png" alt="image-20230609150500779"><figcaption aria-hidden="true">image-20230609150500779</figcaption></figure><p>运行zerotier指令需要在one文件夹内，于是首先要以管理员权限运行cmd</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230609150143721.png" alt="image-20230609150143721"><figcaption aria-hidden="true">image-20230609150143721</figcaption></figure><p>输入指令进入到one文件夹内，加入moon节点，成功后则显示"200 orbit ok"，在域网内成员列表中可看到各个成员，以及根服务器地址后可看到ip地址以及显示为moon模式，则客户端加入moon节点成功</p><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">cd /d C:\Program Files (x86)\ZeroTier\One</span><br><span class="line">zerotier-cli orbit 2fce4db2b2 2fce4db2b2</span><br><span class="line">zerotier-cli listpeers</span><br></pre></td></tr></tbody></table></figure><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230609151709817.png" alt="image-20230609151709817"><figcaption aria-hidden="true">image-20230609151709817</figcaption></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分类4                   （搭建局域网络） </category>
           
       </categories>
       
@@ -118,25 +118,6 @@
     
     
     <entry>
-      <title>(三)提交与推送文件</title>
-      <link href="/2023/07/29/Github%E5%A4%9A%E4%BA%BA%E5%8D%8F%E4%BD%9C%EF%BC%88%E4%B8%89%EF%BC%89/"/>
-      <url>/2023/07/29/Github%E5%A4%9A%E4%BA%BA%E5%8D%8F%E4%BD%9C%EF%BC%88%E4%B8%89%EF%BC%89/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="一提交修改文件内容">（一）提交修改文件内容</h1><p>假如你要修改某个代码文件，如下图中的“新建文本.c”文件</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230709165331578.png" alt="image-20230709165331578"><figcaption aria-hidden="true">image-20230709165331578</figcaption></figure><p>打开后添加你要修改的内容，例如给代码添加一行注释</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230709165731429.png" alt="image-20230709165731429"><figcaption aria-hidden="true">image-20230709165731429</figcaption></figure><p>右键文件，选择“<code>提交-&gt;"master"...</code>”</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230709165952129.png" alt="image-20230709165952129"><figcaption aria-hidden="true">image-20230709165952129</figcaption></figure><p>在提交中补充相关注释信息，尽量对修改的内容描述清晰</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230709170415662.png" alt="image-20230709170415662"><figcaption aria-hidden="true">image-20230709170415662</figcaption></figure><p>若结果如下图，则提交成功（请勿关闭该窗口）</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230709170512990.png" alt="image-20230709170512990"><figcaption aria-hidden="true">image-20230709170512990</figcaption></figure><h1 id="二推送修改文件内容">（二）推送修改文件内容</h1><p>在提交之后，点击推送</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230709170748379.png" alt="image-20230709170748379"><figcaption aria-hidden="true">image-20230709170748379</figcaption></figure><p>注意选择的分支，本地和远端都选择“<code>master</code>”分支</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230709170933296.png" alt="image-20230709170933296"><figcaption aria-hidden="true">image-20230709170933296</figcaption></figure><p>若如下图所示，则成功推送文件</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230709171056601.png" alt="image-20230709171056601"><figcaption aria-hidden="true">image-20230709171056601</figcaption></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> 分类5                   （Github多人协作） </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>(一)克隆Github仓库到本地</title>
       <link href="/2023/07/29/Github%E5%A4%9A%E4%BA%BA%E5%8D%8F%E4%BD%9C%EF%BC%88%E4%B8%80%EF%BC%89/"/>
       <url>/2023/07/29/Github%E5%A4%9A%E4%BA%BA%E5%8D%8F%E4%BD%9C%EF%BC%88%E4%B8%80%EF%BC%89/</url>
@@ -156,11 +137,11 @@
     
     
     <entry>
-      <title>(四)撤销操作</title>
-      <link href="/2023/07/29/Github%E5%A4%9A%E4%BA%BA%E5%8D%8F%E4%BD%9C%EF%BC%88%E5%9B%9B%EF%BC%89/"/>
-      <url>/2023/07/29/Github%E5%A4%9A%E4%BA%BA%E5%8D%8F%E4%BD%9C%EF%BC%88%E5%9B%9B%EF%BC%89/</url>
+      <title>(三)提交与推送文件</title>
+      <link href="/2023/07/29/Github%E5%A4%9A%E4%BA%BA%E5%8D%8F%E4%BD%9C%EF%BC%88%E4%B8%89%EF%BC%89/"/>
+      <url>/2023/07/29/Github%E5%A4%9A%E4%BA%BA%E5%8D%8F%E4%BD%9C%EF%BC%88%E4%B8%89%EF%BC%89/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="撤销推送">撤销推送</h1><p>假如你写了错误的代码，如下所示</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230710151718085.png" alt="image-20230710151718085"><figcaption aria-hidden="true">image-20230710151718085</figcaption></figure><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230710152107441.png" alt="image-20230710152107441"><figcaption aria-hidden="true">image-20230710152107441</figcaption></figure><p>右键仓库，选择“<code>显示日志</code>”</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230710152233016.png" alt="image-20230710152233016"><figcaption aria-hidden="true">image-20230710152233016</figcaption></figure><p>右键你提交之前的版本，然后选择重置到此版本</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230710152439633.png" alt="image-20230710152439633"><figcaption aria-hidden="true">image-20230710152439633</figcaption></figure><p>再次右键本地仓库，选择“<code>同步</code>”</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230710152837467.png" alt="image-20230710152837467"><figcaption aria-hidden="true">image-20230710152837467</figcaption></figure><p>勾选“<code>强制</code>”，本地和远端分支注意都为master</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230710152946432.png" alt="image-20230710152946432"><figcaption aria-hidden="true">image-20230710152946432</figcaption></figure><p>若如下图所示，则撤销成功</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230710153120011.png" alt="image-20230710153120011"><figcaption aria-hidden="true">image-20230710153120011</figcaption></figure><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230710153105714.png" alt="image-20230710153105714"><figcaption aria-hidden="true">image-20230710153105714</figcaption></figure>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="一提交修改文件内容">（一）提交修改文件内容</h1><p>假如你要修改某个代码文件，如下图中的“新建文本.c”文件</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230709165331578.png" alt="image-20230709165331578"><figcaption aria-hidden="true">image-20230709165331578</figcaption></figure><p>打开后添加你要修改的内容，例如给代码添加一行注释</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230709165731429.png" alt="image-20230709165731429"><figcaption aria-hidden="true">image-20230709165731429</figcaption></figure><p>右键文件，选择“<code>提交-&gt;"master"...</code>”</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230709165952129.png" alt="image-20230709165952129"><figcaption aria-hidden="true">image-20230709165952129</figcaption></figure><p>在提交中补充相关注释信息，尽量对修改的内容描述清晰</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230709170415662.png" alt="image-20230709170415662"><figcaption aria-hidden="true">image-20230709170415662</figcaption></figure><p>若结果如下图，则提交成功（请勿关闭该窗口）</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230709170512990.png" alt="image-20230709170512990"><figcaption aria-hidden="true">image-20230709170512990</figcaption></figure><h1 id="二推送修改文件内容">（二）推送修改文件内容</h1><p>在提交之后，点击推送</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230709170748379.png" alt="image-20230709170748379"><figcaption aria-hidden="true">image-20230709170748379</figcaption></figure><p>注意选择的分支，本地和远端都选择“<code>master</code>”分支</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230709170933296.png" alt="image-20230709170933296"><figcaption aria-hidden="true">image-20230709170933296</figcaption></figure><p>若如下图所示，则成功推送文件</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230709171056601.png" alt="image-20230709171056601"><figcaption aria-hidden="true">image-20230709171056601</figcaption></figure>]]></content>
       
       
       <categories>
@@ -232,16 +213,16 @@
     
     
     <entry>
-      <title>Typroa使用</title>
-      <link href="/2023/07/29/Typroa%E4%BD%BF%E7%94%A8/"/>
-      <url>/2023/07/29/Typroa%E4%BD%BF%E7%94%A8/</url>
+      <title>(四)撤销操作</title>
+      <link href="/2023/07/29/Github%E5%A4%9A%E4%BA%BA%E5%8D%8F%E4%BD%9C%EF%BC%88%E5%9B%9B%EF%BC%89/"/>
+      <url>/2023/07/29/Github%E5%A4%9A%E4%BA%BA%E5%8D%8F%E4%BD%9C%EF%BC%88%E5%9B%9B%EF%BC%89/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="markdown数学公式学习">MarkDown数学公式学习</h1><h2 id="公式环境">1.公式环境</h2><ul><li>单$<ul><li>行内</li></ul></li><li>双$$<ul><li>单独一行居中</li></ul></li></ul><h2 id="角标">2. 角标</h2><ul><li>上标：<code>^</code>。例如：(2^5)</li><li>下标：<code>_</code>。例如：(H_2O)</li></ul><h2 id="运算符">3.运算符</h2><ul><li><p>乘法</p><ul><li>点乘：<code>\cdot</code>(dot：点)。例如：(2  = 6)</li><li>叉乘：<code>\times</code>(times：乘以)。例如：(2  = 6)</li></ul></li><li><p>除法</p><ul><li><p>除号：<code>\div</code>(divsion：除法)。例如：(6  = 3)</p></li><li><p>分号：</p><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">\frac{分子}{分母}</span><br></pre></td></tr></tbody></table></figure><p>(fraction：分数)。例如：(=3)</p><ul><li>大一点的分号：<code>\dfrac{分字}{分母}</code>。例如：(=3)</li></ul></li></ul></li><li><p>加减号</p><ul><li>同±号：<code>\pm</code>(Plus minus：正负号)。例如：(2)</li></ul></li><li><p>根号</p><ul><li>平方根号：<code>\sqrt{num}</code>(square root：平方根)。例如：(=2)</li></ul></li><li><p>异或</p><ul><li>异或：<code>\oplus</code>(oval：椭圆 plus：加号)。例如：(AB)</li><li>同或：<code>\odot</code>(oval：椭圆 dot：点)。例如：(ABC =ABC)</li></ul></li><li><p>和</p><ul><li>和：<code>\sum</code>。例如(_{i=0}^5)</li></ul></li></ul><h2 id="关系符">4. 关系符</h2><ul><li>比大小<ul><li>大于等于：<code>\geq</code>(greater：较大的 equal：相等的 )。例如：(3)</li><li>小于等于：<code>\leq</code>(less：较小的 equal：相等的)。例如：(2)</li><li>约等于：<code>\approx</code>(approx：大约)。例如：(2.1)</li></ul></li><li>集合相关<ul><li>属于：<code>\in</code>(in：在……之内)。例如：(AB)</li><li>交集：<code>\cap</code>。例如：(AB)</li><li>并集：<code>\cup</code>。例如：(AB)</li></ul></li><li>分隔符<ul><li>绝对值：<code>\vert</code>。利润()</li></ul></li><li>化学加热符<ul><li>化学加热符：<code>\triangleq</code>(triangularity：三角形 )。例如(Cu_2(OH)_2CO_32CuO+H_2O+ CO_2↑)</li></ul></li><li>积分<ul><li>积分号：<code>\int</code>(integral：积分)。例如：(_{m}^{n})</li><li>被积式：<code>\mathrm{dv}</code>(math：数学 rome：罗马)。例如：(f(x)=F(x)+C)</li></ul></li></ul><h2 id="希腊字母">5.希腊字母</h2><ul><li>alpha：<code>\alpha</code>。()</li><li>beta：<code>\beta</code>。()</li><li>epsilon：<code>\epsilon</code>。()</li><li>theta：<code>\theta</code>。()</li><li>lambda：<code>\lambda</code>。()</li><li>rho：<code>\rho</code>。()</li></ul><h2 id="箭头">6.箭头</h2><ul><li>向量<ul><li>向量：<code>\vec{}</code>。例如：()</li></ul></li><li>双箭头<ul><li>向右推出符：<code>\Longrightarrow</code>(Long：长的 right：右边 arrow：箭头)。例如：(AB)</li><li>向左推出符：<code>\Longleftarrow</code>(left：左边)。例如：(AB)</li></ul></li><li>单箭头<ul><li>向右推出符：<code>\longrightarrow</code>。例如：(AB)</li><li>向左推出符：<code>\longleftarrow</code>。例如：(AB)</li></ul></li></ul><h2 id="其他">7.其他</h2><ul><li>空格<ul><li>单空格：<code>\quad</code>。例如：(AB)</li><li>多空格：<code>\qquad</code>。例如：(AB)</li></ul></li><li>无穷<ul><li>无穷：<code>\infin</code>(infinite：无限的)。例如：()</li></ul></li><li>将角标转换为上下<ul><li><code>\limits</code>。例如(_{n}^{m})</li></ul></li><li>换行<ul><li><code>\\</code>。例如(A\B)</li></ul></li></ul><h2 id="数学环境-大括号">8.数学环境-大括号</h2><p><code>\left\{ \begin{array}{rcl}XXXXX\end{array}\right.</code>。例如：</p>[{<span class="math display">\[\begin{array}{rcl} a=b+c\\b=a+c \end{array}\]</span><p>. ]</p><h3 id="数学环境-矩阵">9.数学环境-矩阵</h3><p><code>\left\[\matrix{XXXXX}\right]</code>。例如：</p><p>[a = ]</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="撤销推送">撤销推送</h1><p>假如你写了错误的代码，如下所示</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230710151718085.png" alt="image-20230710151718085"><figcaption aria-hidden="true">image-20230710151718085</figcaption></figure><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230710152107441.png" alt="image-20230710152107441"><figcaption aria-hidden="true">image-20230710152107441</figcaption></figure><p>右键仓库，选择“<code>显示日志</code>”</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230710152233016.png" alt="image-20230710152233016"><figcaption aria-hidden="true">image-20230710152233016</figcaption></figure><p>右键你提交之前的版本，然后选择重置到此版本</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230710152439633.png" alt="image-20230710152439633"><figcaption aria-hidden="true">image-20230710152439633</figcaption></figure><p>再次右键本地仓库，选择“<code>同步</code>”</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230710152837467.png" alt="image-20230710152837467"><figcaption aria-hidden="true">image-20230710152837467</figcaption></figure><p>勾选“<code>强制</code>”，本地和远端分支注意都为master</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230710152946432.png" alt="image-20230710152946432"><figcaption aria-hidden="true">image-20230710152946432</figcaption></figure><p>若如下图所示，则撤销成功</p><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230710153120011.png" alt="image-20230710153120011"><figcaption aria-hidden="true">image-20230710153120011</figcaption></figure><figure><img src="https://jamth.oss-cn-hangzhou.aliyuncs.com/image-20230710153105714.png" alt="image-20230710153105714"><figcaption aria-hidden="true">image-20230710153105714</figcaption></figure>]]></content>
       
       
       <categories>
           
-          <category> 分类3                   （教程） </category>
+          <category> 分类5                   （Github多人协作） </category>
           
       </categories>
       
@@ -261,6 +242,25 @@
       <categories>
           
           <category> 分类1                   （初级入门） </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Typroa使用</title>
+      <link href="/2023/07/29/Typroa%E4%BD%BF%E7%94%A8/"/>
+      <url>/2023/07/29/Typroa%E4%BD%BF%E7%94%A8/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="markdown数学公式学习">MarkDown数学公式学习</h1><h2 id="公式环境">1.公式环境</h2><ul><li>单$<ul><li>行内</li></ul></li><li>双$$<ul><li>单独一行居中</li></ul></li></ul><h2 id="角标">2. 角标</h2><ul><li>上标：<code>^</code>。例如：(2^5)</li><li>下标：<code>_</code>。例如：(H_2O)</li></ul><h2 id="运算符">3.运算符</h2><ul><li><p>乘法</p><ul><li>点乘：<code>\cdot</code>(dot：点)。例如：(2  = 6)</li><li>叉乘：<code>\times</code>(times：乘以)。例如：(2  = 6)</li></ul></li><li><p>除法</p><ul><li><p>除号：<code>\div</code>(divsion：除法)。例如：(6  = 3)</p></li><li><p>分号：</p><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">\frac{分子}{分母}</span><br></pre></td></tr></tbody></table></figure><p>(fraction：分数)。例如：(=3)</p><ul><li>大一点的分号：<code>\dfrac{分字}{分母}</code>。例如：(=3)</li></ul></li></ul></li><li><p>加减号</p><ul><li>同±号：<code>\pm</code>(Plus minus：正负号)。例如：(2)</li></ul></li><li><p>根号</p><ul><li>平方根号：<code>\sqrt{num}</code>(square root：平方根)。例如：(=2)</li></ul></li><li><p>异或</p><ul><li>异或：<code>\oplus</code>(oval：椭圆 plus：加号)。例如：(AB)</li><li>同或：<code>\odot</code>(oval：椭圆 dot：点)。例如：(ABC =ABC)</li></ul></li><li><p>和</p><ul><li>和：<code>\sum</code>。例如(_{i=0}^5)</li></ul></li></ul><h2 id="关系符">4. 关系符</h2><ul><li>比大小<ul><li>大于等于：<code>\geq</code>(greater：较大的 equal：相等的 )。例如：(3)</li><li>小于等于：<code>\leq</code>(less：较小的 equal：相等的)。例如：(2)</li><li>约等于：<code>\approx</code>(approx：大约)。例如：(2.1)</li></ul></li><li>集合相关<ul><li>属于：<code>\in</code>(in：在……之内)。例如：(AB)</li><li>交集：<code>\cap</code>。例如：(AB)</li><li>并集：<code>\cup</code>。例如：(AB)</li></ul></li><li>分隔符<ul><li>绝对值：<code>\vert</code>。利润()</li></ul></li><li>化学加热符<ul><li>化学加热符：<code>\triangleq</code>(triangularity：三角形 )。例如(Cu_2(OH)_2CO_32CuO+H_2O+ CO_2↑)</li></ul></li><li>积分<ul><li>积分号：<code>\int</code>(integral：积分)。例如：(_{m}^{n})</li><li>被积式：<code>\mathrm{dv}</code>(math：数学 rome：罗马)。例如：(f(x)=F(x)+C)</li></ul></li></ul><h2 id="希腊字母">5.希腊字母</h2><ul><li>alpha：<code>\alpha</code>。()</li><li>beta：<code>\beta</code>。()</li><li>epsilon：<code>\epsilon</code>。()</li><li>theta：<code>\theta</code>。()</li><li>lambda：<code>\lambda</code>。()</li><li>rho：<code>\rho</code>。()</li></ul><h2 id="箭头">6.箭头</h2><ul><li>向量<ul><li>向量：<code>\vec{}</code>。例如：()</li></ul></li><li>双箭头<ul><li>向右推出符：<code>\Longrightarrow</code>(Long：长的 right：右边 arrow：箭头)。例如：(AB)</li><li>向左推出符：<code>\Longleftarrow</code>(left：左边)。例如：(AB)</li></ul></li><li>单箭头<ul><li>向右推出符：<code>\longrightarrow</code>。例如：(AB)</li><li>向左推出符：<code>\longleftarrow</code>。例如：(AB)</li></ul></li></ul><h2 id="其他">7.其他</h2><ul><li>空格<ul><li>单空格：<code>\quad</code>。例如：(AB)</li><li>多空格：<code>\qquad</code>。例如：(AB)</li></ul></li><li>无穷<ul><li>无穷：<code>\infin</code>(infinite：无限的)。例如：()</li></ul></li><li>将角标转换为上下<ul><li><code>\limits</code>。例如(_{n}^{m})</li></ul></li><li>换行<ul><li><code>\\</code>。例如(A\B)</li></ul></li></ul><h2 id="数学环境-大括号">8.数学环境-大括号</h2><p><code>\left\{ \begin{array}{rcl}XXXXX\end{array}\right.</code>。例如：</p>[{<span class="math display">\[\begin{array}{rcl} a=b+c\\b=a+c \end{array}\]</span><p>. ]</p><h3 id="数学环境-矩阵">9.数学环境-矩阵</h3><p><code>\left\[\matrix{XXXXX}\right]</code>。例如：</p><p>[a = ]</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分类3                   （教程） </category>
           
       </categories>
       

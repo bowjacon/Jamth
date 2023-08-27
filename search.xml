@@ -99,25 +99,6 @@
     
     
     <entry>
-      <title>单片机知识扫盲</title>
-      <link href="/2023/08/24/%E5%8D%95%E7%89%87%E6%9C%BA%E7%9F%A5%E8%AF%86%E6%89%AB%E7%9B%B2/"/>
-      <url>/2023/08/24/%E5%8D%95%E7%89%87%E6%9C%BA%E7%9F%A5%E8%AF%86%E6%89%AB%E7%9B%B2/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="一模电知识">一、模电知识</h2><h3 id="推挽输出与开漏输出">1.推挽输出与开漏输出</h3><p><img src="https://bot.zzuli.life/%E7%A4%BA%E6%84%8F%E5%9B%BE.svg"></p><p><img src="https://bot.zzuli.life/%E6%8E%A8%E6%8C%BD.svg"></p><p><span class="github-emoji" style="display:inline;vertical-align:middle"><span>⭐</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/2b50.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>注意:开漏输出需外接上拉电阻。</p><h3 id="半导体结构">2.半导体结构</h3><h4 id="三极管">①三极管</h4><center><img src=" https://bot.zzuli.life/%E4%B8%89%E6%9E%81%E7%AE%A1.svg" width="30%"></center><h4 id="mos管">②MOS管</h4><center><img src=" https://bot.zzuli.life/NMOS.svg" width="30%"></center><h1 id="二数电知识">二、数电知识</h1><h2 id="模拟信号与数字信号">1.模拟信号与数字信号</h2><p>模拟信号（Analog signal）是连续的信号,在范围内的任意时刻内可被测量。数字信号（Digital Signal）是离散的信号，它的数值只能在有限的数值集合中取值。</p><h2 id="位与字节">2.位与字节</h2><p><img src="https://bot.zzuli.life/%E5%AD%97%E8%8A%82.svg"></p><p><span class="github-emoji" style="display:inline;vertical-align:middle"><span>⭐</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/2b50.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>注意:1个比特表示一个2进制，1位表示两个16进制。</p><h1 id="三c语言">三、C语言</h1><h2 id="左移与右移">1.左移与右移</h2><p>右移相当于将该数字的二进制向右移动一位,将末尾的数字截掉;反之,左移相当于将该数字的二进制向左移动一位,末尾补零</p><p><img src="https://bot.zzuli.life/%E8%BF%90%E7%AE%97%E7%AC%A6.jpg"></p><h1 id="四基础电路">四、基础电路</h1><h2 id="诺顿定理与戴维宁定理">1.诺顿定理与戴维宁定理</h2><p>①戴维宁等效电路</p><p><img src="https://bot.zzuli.life/%E6%94%B9%E5%9B%BE%E7%A5%9E%E5%99%A8_365x220.jpeg"></p><p>②诺顿等效电路</p><p><img src="https://bot.zzuli.life/%E6%94%B9%E5%9B%BE%E7%A5%9E%E5%99%A8_400x238.png"></p><ol type="1"><li><p>外电路可以是任意的线性或非线性电路，外电路发生改变时，含源一端口网路的等效电路不变(伏-安特性等效)，当一端口内部含有受控源时，控制电路与受控源必须包含在被化简的同一部分电路中。</p></li><li><p>若一端口网路的等效电阻R<sub>eq</sub>=0,该一端口网路只有戴维宁等效电路，无诺顿等效电路;若一端口网路的等效电阻R<sub>eq</sub>=∞，该一端口网络只有诺段等效电路，无戴维宁等效电路。</p></li><li><p>戴维宁定理及诺顿定理相当于替换整条伏安特性曲线，替代定理相当于替换伏安特性曲线上一点。</p></li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> 分类7                   （单片机） </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Typroa使用</title>
       <link href="/2023/08/24/Typroa%E4%BD%BF%E7%94%A8/"/>
       <url>/2023/08/24/Typroa%E4%BD%BF%E7%94%A8/</url>
@@ -128,6 +109,25 @@
       <categories>
           
           <category> 分类3                   （教程） </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>单片机知识扫盲</title>
+      <link href="/2023/08/24/%E5%8D%95%E7%89%87%E6%9C%BA%E7%9F%A5%E8%AF%86%E6%89%AB%E7%9B%B2/"/>
+      <url>/2023/08/24/%E5%8D%95%E7%89%87%E6%9C%BA%E7%9F%A5%E8%AF%86%E6%89%AB%E7%9B%B2/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="一模电知识">一、模电知识</h2><h3 id="推挽输出与开漏输出">1.推挽输出与开漏输出</h3><p><img src="https://bot.zzuli.life/%E7%A4%BA%E6%84%8F%E5%9B%BE.svg"></p><p><img src="https://bot.zzuli.life/%E6%8E%A8%E6%8C%BD.svg"></p><p><span class="github-emoji" style="display:inline;vertical-align:middle"><span>⭐</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/2b50.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>注意:开漏输出需外接上拉电阻。</p><h3 id="半导体结构">2.半导体结构</h3><h4 id="三极管">①三极管</h4><center><img src=" https://bot.zzuli.life/%E4%B8%89%E6%9E%81%E7%AE%A1.svg" width="30%"></center><h4 id="mos管">②MOS管</h4><center><img src=" https://bot.zzuli.life/NMOS.svg" width="30%"></center><h1 id="二数电知识">二、数电知识</h1><h2 id="模拟信号与数字信号">1.模拟信号与数字信号</h2><p>模拟信号（Analog signal）是连续的信号,在范围内的任意时刻内可被测量。数字信号（Digital Signal）是离散的信号，它的数值只能在有限的数值集合中取值。</p><h2 id="位与字节">2.位与字节</h2><p><img src="https://bot.zzuli.life/%E5%AD%97%E8%8A%82.svg"></p><p><span class="github-emoji" style="display:inline;vertical-align:middle"><span>⭐</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/2b50.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>注意:1个比特表示一个2进制，1位表示两个16进制。</p><h1 id="三c语言">三、C语言</h1><h2 id="左移与右移">1.左移与右移</h2><p>右移相当于将该数字的二进制向右移动一位,将末尾的数字截掉;反之,左移相当于将该数字的二进制向左移动一位,末尾补零</p><p><img src="https://bot.zzuli.life/%E8%BF%90%E7%AE%97%E7%AC%A6.jpg"></p><h1 id="四基础电路">四、基础电路</h1><h2 id="诺顿定理与戴维宁定理">1.诺顿定理与戴维宁定理</h2><p>①戴维宁等效电路</p><p><img src="https://bot.zzuli.life/%E6%94%B9%E5%9B%BE%E7%A5%9E%E5%99%A8_365x220.jpeg"></p><p>②诺顿等效电路</p><p><img src="https://bot.zzuli.life/%E6%94%B9%E5%9B%BE%E7%A5%9E%E5%99%A8_400x238.png"></p><ol type="1"><li><p>外电路可以是任意的线性或非线性电路，外电路发生改变时，含源一端口网路的等效电路不变(伏-安特性等效)，当一端口内部含有受控源时，控制电路与受控源必须包含在被化简的同一部分电路中。</p></li><li><p>若一端口网路的等效电阻R<sub>eq</sub>=0,该一端口网路只有戴维宁等效电路，无诺顿等效电路;若一端口网路的等效电阻R<sub>eq</sub>=∞，该一端口网络只有诺段等效电路，无戴维宁等效电路。</p></li><li><p>戴维宁定理及诺顿定理相当于替换整条伏安特性曲线，替代定理相当于替换伏安特性曲线上一点。</p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分类7                   （单片机） </category>
           
       </categories>
       

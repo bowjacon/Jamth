@@ -99,25 +99,6 @@
     
     
     <entry>
-      <title>Typroa使用</title>
-      <link href="/2023/08/24/Typroa%E4%BD%BF%E7%94%A8/"/>
-      <url>/2023/08/24/Typroa%E4%BD%BF%E7%94%A8/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="markdown数学公式学习">MarkDown数学公式学习</h1><h2 id="公式环境">1.公式环境</h2><ul><li>单$<ul><li>行内</li></ul></li><li>双$$<ul><li>单独一行居中</li></ul></li></ul><h2 id="角标">2. 角标</h2><ul><li>上标：<code>^</code>。例如：(2^5)</li><li>下标：<code>_</code>。例如：(H_2O)</li></ul><h2 id="运算符">3.运算符</h2><ul><li><p>乘法</p><ul><li>点乘：<code>\cdot</code>(dot：点)。例如：(2  = 6)</li><li>叉乘：<code>\times</code>(times：乘以)。例如：(2  = 6)</li></ul></li><li><p>除法</p><ul><li><p>除号：<code>\div</code>(divsion：除法)。例如：(6  = 3)</p></li><li><p>分号：</p><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">\frac{分子}{分母}</span><br></pre></td></tr></tbody></table></figure><p>(fraction：分数)。例如：(=3)</p><ul><li>大一点的分号：<code>\dfrac{分字}{分母}</code>。例如：(=3)</li></ul></li></ul></li><li><p>加减号</p><ul><li>同±号：<code>\pm</code>(Plus minus：正负号)。例如：(2)</li></ul></li><li><p>根号</p><ul><li>平方根号：<code>\sqrt{num}</code>(square root：平方根)。例如：(=2)</li></ul></li><li><p>异或</p><ul><li>异或：<code>\oplus</code>(oval：椭圆 plus：加号)。例如：(AB)</li><li>同或：<code>\odot</code>(oval：椭圆 dot：点)。例如：(ABC =ABC)</li></ul></li><li><p>和</p><ul><li>和：<code>\sum</code>。例如(_{i=0}^5)</li></ul></li></ul><h2 id="关系符">4. 关系符</h2><ul><li>比大小<ul><li>大于等于：<code>\geq</code>(greater：较大的 equal：相等的 )。例如：(3)</li><li>小于等于：<code>\leq</code>(less：较小的 equal：相等的)。例如：(2)</li><li>约等于：<code>\approx</code>(approx：大约)。例如：(2.1)</li></ul></li><li>集合相关<ul><li>属于：<code>\in</code>(in：在……之内)。例如：(AB)</li><li>交集：<code>\cap</code>。例如：(AB)</li><li>并集：<code>\cup</code>。例如：(AB)</li></ul></li><li>分隔符<ul><li>绝对值：<code>\vert</code>。利润()</li></ul></li><li>化学加热符<ul><li>化学加热符：<code>\triangleq</code>(triangularity：三角形 )。例如(Cu_2(OH)_2CO_32CuO+H_2O+ CO_2↑)</li></ul></li><li>积分<ul><li>积分号：<code>\int</code>(integral：积分)。例如：(_{m}^{n})</li><li>被积式：<code>\mathrm{dv}</code>(math：数学 rome：罗马)。例如：(f(x)=F(x)+C)</li></ul></li></ul><h2 id="希腊字母">5.希腊字母</h2><ul><li>alpha：<code>\alpha</code>。()</li><li>beta：<code>\beta</code>。()</li><li>epsilon：<code>\epsilon</code>。()</li><li>theta：<code>\theta</code>。()</li><li>lambda：<code>\lambda</code>。()</li><li>rho：<code>\rho</code>。()</li></ul><h2 id="箭头">6.箭头</h2><ul><li>向量<ul><li>向量：<code>\vec{}</code>。例如：()</li></ul></li><li>双箭头<ul><li>向右推出符：<code>\Longrightarrow</code>(Long：长的 right：右边 arrow：箭头)。例如：(AB)</li><li>向左推出符：<code>\Longleftarrow</code>(left：左边)。例如：(AB)</li></ul></li><li>单箭头<ul><li>向右推出符：<code>\longrightarrow</code>。例如：(AB)</li><li>向左推出符：<code>\longleftarrow</code>。例如：(AB)</li></ul></li></ul><h2 id="其他">7.其他</h2><ul><li>空格<ul><li>单空格：<code>\quad</code>。例如：(AB)</li><li>多空格：<code>\qquad</code>。例如：(AB)</li></ul></li><li>无穷<ul><li>无穷：<code>\infin</code>(infinite：无限的)。例如：()</li></ul></li><li>将角标转换为上下<ul><li><code>\limits</code>。例如(_{n}^{m})</li></ul></li><li>换行<ul><li><code>\\</code>。例如(A\B)</li></ul></li></ul><h2 id="数学环境-大括号">8.数学环境-大括号</h2><p><code>\left\{ \begin{array}{rcl}XXXXX\end{array}\right.</code>。例如：</p>[{<span class="math display">\[\begin{array}{rcl} a=b+c\\b=a+c \end{array}\]</span><p>. ]</p><h3 id="数学环境-矩阵">9.数学环境-矩阵</h3><p><code>\left\[\matrix{XXXXX}\right]</code>。例如：</p><p>[a = ]</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 分类3                   （教程） </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>单片机知识扫盲</title>
       <link href="/2023/08/24/%E5%8D%95%E7%89%87%E6%9C%BA%E7%9F%A5%E8%AF%86%E6%89%AB%E7%9B%B2/"/>
       <url>/2023/08/24/%E5%8D%95%E7%89%87%E6%9C%BA%E7%9F%A5%E8%AF%86%E6%89%AB%E7%9B%B2/</url>
@@ -128,6 +109,25 @@
       <categories>
           
           <category> 分类7                   （单片机） </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Typroa使用</title>
+      <link href="/2023/08/24/Typroa%E4%BD%BF%E7%94%A8/"/>
+      <url>/2023/08/24/Typroa%E4%BD%BF%E7%94%A8/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="markdown数学公式学习">MarkDown数学公式学习</h1><h2 id="公式环境">1.公式环境</h2><ul><li>单$<ul><li>行内</li></ul></li><li>双$$<ul><li>单独一行居中</li></ul></li></ul><h2 id="角标">2. 角标</h2><ul><li>上标：<code>^</code>。例如：(2^5)</li><li>下标：<code>_</code>。例如：(H_2O)</li></ul><h2 id="运算符">3.运算符</h2><ul><li><p>乘法</p><ul><li>点乘：<code>\cdot</code>(dot：点)。例如：(2  = 6)</li><li>叉乘：<code>\times</code>(times：乘以)。例如：(2  = 6)</li></ul></li><li><p>除法</p><ul><li><p>除号：<code>\div</code>(divsion：除法)。例如：(6  = 3)</p></li><li><p>分号：</p><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">\frac{分子}{分母}</span><br></pre></td></tr></tbody></table></figure><p>(fraction：分数)。例如：(=3)</p><ul><li>大一点的分号：<code>\dfrac{分字}{分母}</code>。例如：(=3)</li></ul></li></ul></li><li><p>加减号</p><ul><li>同±号：<code>\pm</code>(Plus minus：正负号)。例如：(2)</li></ul></li><li><p>根号</p><ul><li>平方根号：<code>\sqrt{num}</code>(square root：平方根)。例如：(=2)</li></ul></li><li><p>异或</p><ul><li>异或：<code>\oplus</code>(oval：椭圆 plus：加号)。例如：(AB)</li><li>同或：<code>\odot</code>(oval：椭圆 dot：点)。例如：(ABC =ABC)</li></ul></li><li><p>和</p><ul><li>和：<code>\sum</code>。例如(_{i=0}^5)</li></ul></li></ul><h2 id="关系符">4. 关系符</h2><ul><li>比大小<ul><li>大于等于：<code>\geq</code>(greater：较大的 equal：相等的 )。例如：(3)</li><li>小于等于：<code>\leq</code>(less：较小的 equal：相等的)。例如：(2)</li><li>约等于：<code>\approx</code>(approx：大约)。例如：(2.1)</li></ul></li><li>集合相关<ul><li>属于：<code>\in</code>(in：在……之内)。例如：(AB)</li><li>交集：<code>\cap</code>。例如：(AB)</li><li>并集：<code>\cup</code>。例如：(AB)</li></ul></li><li>分隔符<ul><li>绝对值：<code>\vert</code>。利润()</li></ul></li><li>化学加热符<ul><li>化学加热符：<code>\triangleq</code>(triangularity：三角形 )。例如(Cu_2(OH)_2CO_32CuO+H_2O+ CO_2↑)</li></ul></li><li>积分<ul><li>积分号：<code>\int</code>(integral：积分)。例如：(_{m}^{n})</li><li>被积式：<code>\mathrm{dv}</code>(math：数学 rome：罗马)。例如：(f(x)=F(x)+C)</li></ul></li></ul><h2 id="希腊字母">5.希腊字母</h2><ul><li>alpha：<code>\alpha</code>。()</li><li>beta：<code>\beta</code>。()</li><li>epsilon：<code>\epsilon</code>。()</li><li>theta：<code>\theta</code>。()</li><li>lambda：<code>\lambda</code>。()</li><li>rho：<code>\rho</code>。()</li></ul><h2 id="箭头">6.箭头</h2><ul><li>向量<ul><li>向量：<code>\vec{}</code>。例如：()</li></ul></li><li>双箭头<ul><li>向右推出符：<code>\Longrightarrow</code>(Long：长的 right：右边 arrow：箭头)。例如：(AB)</li><li>向左推出符：<code>\Longleftarrow</code>(left：左边)。例如：(AB)</li></ul></li><li>单箭头<ul><li>向右推出符：<code>\longrightarrow</code>。例如：(AB)</li><li>向左推出符：<code>\longleftarrow</code>。例如：(AB)</li></ul></li></ul><h2 id="其他">7.其他</h2><ul><li>空格<ul><li>单空格：<code>\quad</code>。例如：(AB)</li><li>多空格：<code>\qquad</code>。例如：(AB)</li></ul></li><li>无穷<ul><li>无穷：<code>\infin</code>(infinite：无限的)。例如：()</li></ul></li><li>将角标转换为上下<ul><li><code>\limits</code>。例如(_{n}^{m})</li></ul></li><li>换行<ul><li><code>\\</code>。例如(A\B)</li></ul></li></ul><h2 id="数学环境-大括号">8.数学环境-大括号</h2><p><code>\left\{ \begin{array}{rcl}XXXXX\end{array}\right.</code>。例如：</p>[{<span class="math display">\[\begin{array}{rcl} a=b+c\\b=a+c \end{array}\]</span><p>. ]</p><h3 id="数学环境-矩阵">9.数学环境-矩阵</h3><p><code>\left\[\matrix{XXXXX}\right]</code>。例如：</p><p>[a = ]</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分类3                   （教程） </category>
           
       </categories>
       

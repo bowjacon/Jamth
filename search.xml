@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>APP显示模糊</title>
+      <link href="/2023/09/29/App%E6%98%BE%E7%A4%BA%E6%A8%A1%E7%B3%8A/"/>
+      <url>/2023/09/29/App%E6%98%BE%E7%A4%BA%E6%A8%A1%E7%B3%8A/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="app显示模糊">APP显示模糊</h2>APP打开后字体比较的糊，不清晰，例如下面的情况<div data-align="center"><img src="https://bot.zzuli.life/image-20230929115425133.png"></div>解决方法:首先右键应用点击"属性"<div data-align="center"><img src="https://bot.zzuli.life/image-20230929115609244.png"></div>在属性上方找到“兼容性”，然后选择“更改高DPI设置”，并勾选上两个框框<div data-align="center"><img src="https://bot.zzuli.life/image-20230929115910480.png"></div><div data-align="center"><img src="https://bot.zzuli.life/image-20230929120021920.png"></div><p>最后点击两次“确定"即可完成设置，再次打开应用可发现已变清晰</p><h2 id="问题原因">问题原因</h2><blockquote><p>因为电脑设置的缩放比例不同,如将电脑缩放比例改为100%同样也能变清晰</p></blockquote><div data-align="center"><img src="https://bot.zzuli.life/image-20230929120408095.png"></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分类3                   （教程） </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Git问题指南</title>
       <link href="/2023/09/26/Git%E9%97%AE%E9%A2%98%E6%8C%87%E5%8D%97/"/>
       <url>/2023/09/26/Git%E9%97%AE%E9%A2%98%E6%8C%87%E5%8D%97/</url>

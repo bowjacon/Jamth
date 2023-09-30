@@ -8,7 +8,7 @@
       <link href="/2023/09/30/Vercel%E5%8D%9A%E5%AE%A2404/"/>
       <url>/2023/09/30/Vercel%E5%8D%9A%E5%AE%A2404/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><mark class="hl-label blue">问题描述</mark> <blockquote><p>本地上传页面成功,且Github仓库也能看到上传记录，但是访问博客仍出现404</p></blockquote><mark class="hl-label blue">解决方法</mark> <blockquote><p>将md文件名字中的"+"或者其他特殊的符号删去即可</p></blockquote>]]></content>
       
       
       <categories>

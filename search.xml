@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>复合字面量</title>
+      <link href="/2023/10/12/%E5%A4%8D%E5%90%88%E5%AD%97%E9%9D%A2%E9%87%8F/"/>
+      <url>/2023/10/12/%E5%A4%8D%E5%90%88%E5%AD%97%E9%9D%A2%E9%87%8F/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>{ % label 复合字面量 blu是C99标准引入的新特性，它允许我们在不定义变量的情况下，直接使用字面量来初始化一个对象。复合字面量的语法形式为：<code>(type){initializer}</code>。其中，<code>type</code>是一个类型名，<code>initializer</code>是一个初始化器，它可以是一个常量、一个表达式或者一个初始化列表。复合字面量可以用于数组、结构体、联合体等类型的初始化。例如，<code>(int[\]){1, 2, 3}</code>表示一个匿名的整型数组，它的元素分别为1、2、3。<code>(struct point){.x=1, .y=2}</code>表示一个匿名的结构体变量，它有两个成员变量x和y，分别被初始化为1和2。</p><ul><li><p>The type name shall specify an object type or an array of unknown size, but not a variable length array type. type name指定了数组类型或结构体类型，数组长度不能是可变的。</p></li><li><p>No initializer shall attempt to provide a value for an object not contained within the entire unnamed object specified by the compound literal. 匿名"对象"的初始化必须在在复合字面量的大括号中。</p></li><li><p>If the compound literal occurs outside the body of a function, the initializer list shall consist of constant expressions. 如果复合字面量是文件作用域，initializer list的表达式必须是常量表达式。</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分类8                   （C语言） </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>OLED12864学习指南</title>
       <link href="/2023/10/08/Oled12864%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/"/>
       <url>/2023/10/08/Oled12864%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/</url>

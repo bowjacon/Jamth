@@ -6,7 +6,7 @@
   <link href="https://zzuli.life/atom.xml" rel="self"/>
   
   <link href="https://zzuli.life/"/>
-  <updated>2023-12-07T14:03:14.758Z</updated>
+  <updated>2023-12-08T07:52:56.232Z</updated>
   <id>https://zzuli.life/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>常见序列</title>
     <link href="https://zzuli.life/2023/12/07/%E5%B8%B8%E8%A7%81%E5%BA%8F%E5%88%97/"/>
     <id>https://zzuli.life/2023/12/07/%E5%B8%B8%E8%A7%81%E5%BA%8F%E5%88%97/</id>
     <published>2023-12-07T14:03:14.758Z</published>
-    <updated>2023-12-07T14:03:14.758Z</updated>
+    <updated>2023-12-08T07:52:56.232Z</updated>
     
     
       
@@ -33,6 +33,8 @@
       
     
     
+    
+    <category term="分类9                   （数字信号处理）" scheme="https://zzuli.life/categories/%E5%88%86%E7%B1%BB9-%EF%BC%88%E6%95%B0%E5%AD%97%E4%BF%A1%E5%8F%B7%E5%A4%84%E7%90%86%EF%BC%89/"/>
     
     
   </entry>

@@ -6,7 +6,7 @@
   <link href="https://zzuli.life/atom.xml" rel="self"/>
   
   <link href="https://zzuli.life/"/>
-  <updated>2023-12-10T07:41:34.724Z</updated>
+  <updated>2023-12-11T09:23:24.379Z</updated>
   <id>https://zzuli.life/</id>
   
   <author>
@@ -15,6 +15,69 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://zzuli.life/2023/12/11/Powershell/"/>
+    <id>https://zzuli.life/2023/12/11/Powershell/</id>
+    <published>2023-12-11T09:06:34.428Z</published>
+    <updated>2023-12-11T09:23:24.379Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://zzuli.life/2023/12/11/cmd%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/"/>
+    <id>https://zzuli.life/2023/12/11/cmd%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</id>
+    <published>2023-12-11T07:16:37.874Z</published>
+    <updated>2023-12-11T09:14:45.898Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://zzuli.life/2023/12/11/int%E6%95%B0%E7%BB%84/"/>
+    <id>https://zzuli.life/2023/12/11/int%E6%95%B0%E7%BB%84/</id>
+    <published>2023-12-11T02:42:40.927Z</published>
+    <updated>2023-12-11T02:50:04.547Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>常见序列</title>
@@ -403,75 +466,6 @@
     
     
     <category term="分类7                   （单片机）" scheme="https://zzuli.life/categories/%E5%88%86%E7%B1%BB7-%EF%BC%88%E5%8D%95%E7%89%87%E6%9C%BA%EF%BC%89/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Java笔记</title>
-    <link href="https://zzuli.life/2023/08/24/Java%E7%AC%94%E8%AE%B0/"/>
-    <id>https://zzuli.life/2023/08/24/Java%E7%AC%94%E8%AE%B0/</id>
-    <published>2023-08-24T03:56:03.818Z</published>
-    <updated>2023-09-29T06:19:11.601Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="分类2                   （Java学习笔记）" scheme="https://zzuli.life/categories/%E5%88%86%E7%B1%BB2-%EF%BC%88Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%89/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>(四)撤销操作</title>
-    <link href="https://zzuli.life/2023/08/24/Github%E5%A4%9A%E4%BA%BA%E5%8D%8F%E4%BD%9C%EF%BC%88%E5%9B%9B%EF%BC%89/"/>
-    <id>https://zzuli.life/2023/08/24/Github%E5%A4%9A%E4%BA%BA%E5%8D%8F%E4%BD%9C%EF%BC%88%E5%9B%9B%EF%BC%89/</id>
-    <published>2023-08-24T03:56:03.817Z</published>
-    <updated>2023-09-29T05:37:52.999Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="分类5                   （Github多人协作）" scheme="https://zzuli.life/categories/%E5%88%86%E7%B1%BB5-%EF%BC%88Github%E5%A4%9A%E4%BA%BA%E5%8D%8F%E4%BD%9C%EF%BC%89/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>(五)更新仓库</title>
-    <link href="https://zzuli.life/2023/08/24/Github%E5%A4%9A%E4%BA%BA%E5%8D%8F%E4%BD%9C%EF%BC%88%E4%BA%94%EF%BC%89/"/>
-    <id>https://zzuli.life/2023/08/24/Github%E5%A4%9A%E4%BA%BA%E5%8D%8F%E4%BD%9C%EF%BC%88%E4%BA%94%EF%BC%89/</id>
-    <published>2023-08-24T03:56:03.816Z</published>
-    <updated>2023-09-29T05:37:50.806Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="分类5                   （Github多人协作）" scheme="https://zzuli.life/categories/%E5%88%86%E7%B1%BB5-%EF%BC%88Github%E5%A4%9A%E4%BA%BA%E5%8D%8F%E4%BD%9C%EF%BC%89/"/>
     
     
   </entry>

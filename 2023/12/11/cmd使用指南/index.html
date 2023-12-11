@@ -1,0 +1,330 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Jamth | Jamth</title><meta name="author" content="Jamth"><meta name="copyright" content="Jamth"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="1.start start &lt;file&gt;  2.assoc &nbsp;2.1查询 assoc .c #查询类型关联  2.2 更改 assoc .c&#x3D;cfile #更改类型关联 3.ftype &nbsp;3.1查询 ftype cfile #查询关联执行路径 &nbsp;3.2更改 ftype cfile&#x3D;&quot;F:&#x2F;Vscode&#x2F;Code.exe&quot; %1 #更改关联路径 4.echo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Jamth">
+<meta property="og:url" content="https://zzuli.life/2023/12/11/cmd%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/index.html">
+<meta property="og:site_name" content="Jamth">
+<meta property="og:description" content="1.start start &lt;file&gt;  2.assoc &nbsp;2.1查询 assoc .c #查询类型关联  2.2 更改 assoc .c&#x3D;cfile #更改类型关联 3.ftype &nbsp;3.1查询 ftype cfile #查询关联执行路径 &nbsp;3.2更改 ftype cfile&#x3D;&quot;F:&#x2F;Vscode&#x2F;Code.exe&quot; %1 #更改关联路径 4.echo">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://bot.zzuli.life/cover5.jpg">
+<meta property="article:published_time" content="2023-12-11T07:16:37.874Z">
+<meta property="article:modified_time" content="2023-12-11T09:14:45.898Z">
+<meta property="article:author" content="Jamth">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://bot.zzuli.life/cover5.jpg"><link rel="shortcut icon" href="https://bot.zzuli.life/icon32.ico"><link rel="canonical" href="https://zzuli.life/2023/12/11/cmd%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://bot.zzuli.life/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://bot.zzuli.life/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"top_n_per_article":1,"unescape":true,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: true,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Jamth',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: undefined,
+  isToc: false,
+  postUpdate: '2023-12-11 17:14:45'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="https://bot.zzuli.life/my.css"> <link rel="stylesheet" href="https://bot.zzuli.life/macblack.css"> <link rel="stylesheet" href="https://bot.zzuli.life/load-img.css"> <link rel="stylesheet" href="https://bot.zzuli.life/title_icon.css"> <link rel="stylesheet" href="https://bot.zzuli.life/tag-link.css"> <link rel="stylesheet" href="https://bot.zzuli.life/heoMainColor.css"><!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://bot.zzuli.life/katex.min.css">
+
+<link rel="stylesheet" href="https://bot.zzuli.life/math-style.css">
+<link rel="stylesheet" href="https://bot.zzuli.life/cardlistpost.min.css"/>
+<style>#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .tags:before {content:"\A";
+  white-space: pre;}#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .tags > .article-meta__separator{display:none}</style>
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.0.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="Jamth" type="application/atom+xml">
+</head><body><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><div class="loading-img"></div><div class="loading-image-dot"></div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+
+if (false) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><script>window.paceOptions = {
+  restartOnPushState: false
+}
+
+document.addEventListener('pjax:send', () => {
+  Pace.restart()
+})
+</script><link rel="stylesheet" href="https://bot.zzuli.life/pace.css"/><script src="https://bot.zzuli.life/pace.min.js"></script><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">28</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">9</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友站</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg fixed" id="page-header" style="background-image: url('https://bot.zzuli.life/cover5.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="Jamth"><img class="site-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/icon32.ico"/><span class="site-name">Jamth</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友站</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">无题</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-12-11T07:16:37.874Z" title="发表于 2023-12-11 15:16:37">2023-12-11</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-12-11T09:14:45.898Z" title="更新于 2023-12-11 17:14:45">2023-12-11</time></span></div><div class="meta-secondline"></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p><font size="4"><b>1.start</b></font></p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">start &lt;file&gt; </span><br></pre></td></tr></tbody></table></figure>
+<p><font size="4"><b>2.assoc</b></font></p>
+<p><font size="3">&nbsp;2.1查询</font></p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">assoc .c <span class="comment">#查询类型关联</span></span><br></pre></td></tr></tbody></table></figure>
+<p><font size="3"> 2.2 更改</font></p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">assoc .c=cfile <span class="comment">#更改类型关联</span></span><br></pre></td></tr></tbody></table></figure>
+<p><font size="4"><b>3.ftype</b></font></p>
+<p><font size="3">&nbsp;3.1查询</font></p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">ftype cfile <span class="comment">#查询关联执行路径</span></span><br></pre></td></tr></tbody></table></figure>
+<p><font size="3">&nbsp;3.2更改</font></p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">ftype cfile=<span class="string">"F:/Vscode/Code.exe"</span> %1 <span class="comment">#更改关联路径</span></span><br></pre></td></tr></tbody></table></figure>
+<p><font size="4"><b>4.echo</b></font></p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> &gt;  hello.c <span class="comment"># 创建hello.c文件</span></span><br></pre></td></tr></tbody></table></figure>
+<p><font size="4"><b>5.del</b></font></p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">del hello.c<span class="comment">#删除hello.c文件</span></span><br></pre></td></tr></tbody></table></figure>
+<p><font size="4"><b>6.chcp</b></font></p>
+<p><font size="3">&nbsp;6.1更改编码环境为GBK</font></p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">chcp 936 </span><br></pre></td></tr></tbody></table></figure>
+<p><font size="3">&nbsp;6.2更改编码环境为UTF-8</font></p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">chcp  65001  </span><br></pre></td></tr></tbody></table></figure>
+<p><font size="4"><b>7.shutdown</b></font></p>
+<p><font size="3">7.1定时关机</font></p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">shutdown /s /t 3600 <span class="comment">#1小时后自动关机</span></span><br></pre></td></tr></tbody></table></figure>
+<p><font size="3">7.2重启计算机</font></p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">shutdown /r </span><br></pre></td></tr></tbody></table></figure>
+<p><font size="3">7.3注销计算机</font></p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">shutdown /l </span><br></pre></td></tr></tbody></table></figure>
+<p><font size="3">7.4休眠计算机</font></p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">shutdown /h /f <span class="comment">#强制正在运行的应用程序关闭</span></span><br></pre></td></tr></tbody></table></figure>
+<p><font size="4"><b>8.powercfg.exe</b></font></p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">powercfg.exe /hibernate on <span class="comment">#启用睡眠</span></span><br></pre></td></tr></tbody></table></figure>
+<p><font size="4"><b>&nbsp;9.sfc</b></font></p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">sfc /scannow <span class="comment">#系统文件检查器扫描</span></span><br></pre></td></tr></tbody></table></figure>
+<p><font size="4"><b> 10.cd</b></font></p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> &lt;Path&gt; <span class="comment">#进入路径</span></span><br><span class="line"><span class="built_in">cd</span> .. <span class="comment">#返回上一级目录</span></span><br><span class="line"><span class="built_in">cd</span> /d F: <span class="comment">#回到上次进入到F盘的目录</span></span><br></pre></td></tr></tbody></table></figure>
+<p><font size="4">&nbsp;<b>11.rd</b></font></p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">rd /s /q  <span class="built_in">test</span> <span class="comment">#安静模式删除test目录以及所有子目录和文件</span></span><br></pre></td></tr></tbody></table></figure>
+<p><font size="4"><b>12.move</b></font></p>
+<p><font size="3">12.1移动文件</font></p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">move *.png <span class="built_in">test</span> <span class="comment">#将当前目录下的png图片移动到当前目录下test文件夹中(询问覆盖)</span></span><br><span class="line">move /Y *.png <span class="built_in">test</span> <span class="comment">#(不询问,直接覆盖)</span></span><br></pre></td></tr></tbody></table></figure>
+<p><font size="3">12.2移动目录</font></p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">move <span class="built_in">test</span> d:\new <span class="comment">#若d盘中存在new文件夹，将当前目录下的test文件夹移动到d盘new文件夹中；若不存在，将当前目录下的test文件夹移动到d盘，并重命名为new</span></span><br></pre></td></tr></tbody></table></figure>
+<p><font size="4"><b>13.dir</b></font></p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line"><span class="built_in">dir</span> *.c <span class="comment">#显示当前文件夹下所有c文件</span></span><br></pre></td></tr></tbody></table></figure>
+<p><font size="4"><b>14.replace</b></font></p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">replace F:/Code/hello.c D:/Code <span class="comment">#将"D:/Code"路径下的中的helo.c文件替换为"F:/Code/hello.c"</span></span><br></pre></td></tr></tbody></table></figure>
+<p><font size="4"><b>15.type</b></font></p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line"><span class="built_in">type</span> hello.c <span class="comment">#查看hello.c文件内容</span></span><br></pre></td></tr></tbody></table></figure>
+<p><font size="4"><b>16.set/setx </b></font></p>
+<p><font size="3">16.1查看</font></p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line"><span class="built_in">set</span> PATH<span class="comment">#查看环境变量</span></span><br></pre></td></tr></tbody></table></figure>
+<p><font size="3">16.2覆盖</font></p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line"><span class="built_in">set</span> PATH<span class="string">"C:\Program Files\" #将PATH变量覆盖为C:\Program Files\ </span></span><br></pre></td></tr></tbody></table></figure>
+<p><font size="3">16.3增加(不推荐)</font></p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line"><span class="built_in">set</span> PATH=%PATH%;C:\Program Files\ <span class="comment">#当前窗口有效</span></span><br><span class="line">setx PATH <span class="string">"%PATH%;C:\Program Files\"  /M #永久有效(系统环境变量)</span></span><br></pre></td></tr></tbody></table></figure>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://zzuli.life">Jamth</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://zzuli.life/2023/12/11/cmd%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/">https://zzuli.life/2023/12/11/cmd%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://zzuli.life" target="_blank">Jamth</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="https://bot.zzuli.life/cover5.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://bot.zzuli.life/share.min.css" media="print" onload="this.media='all'"><script src="https://bot.zzuli.life/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2023/12/11/Powershell/" title=""><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/cover5.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info"></div></div></a></div><div class="next-post pull-right"><a href="/2023/12/11/int%E6%95%B0%E7%BB%84/" title=""><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/cover5.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info"></div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Jamth</div><div class="author-info__description">There are certain obstacles in life that you can’t escape. Instead of going through all the trouble, it’s better to bravely climb over </div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">28</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">9</div></a></div><div class="card-info-social-icons is-center"><a class="social-icon" href="/atom.xml" target="_blank" title="RSS链接"><i class="fa fa-rss"></i></a></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2023/12/11/Powershell/" title="无题"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/cover5.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="无题"/></a><div class="content"><a class="title" href="/2023/12/11/Powershell/" title="无题">无题</a><time datetime="2023-12-11T09:06:34.428Z" title="发表于 2023-12-11 17:06:34">2023-12-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/12/11/cmd%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/" title="无题"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/cover5.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="无题"/></a><div class="content"><a class="title" href="/2023/12/11/cmd%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/" title="无题">无题</a><time datetime="2023-12-11T07:16:37.874Z" title="发表于 2023-12-11 15:16:37">2023-12-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/12/11/int%E6%95%B0%E7%BB%84/" title="无题"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/cover5.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="无题"/></a><div class="content"><a class="title" href="/2023/12/11/int%E6%95%B0%E7%BB%84/" title="无题">无题</a><time datetime="2023-12-11T02:42:40.927Z" title="发表于 2023-12-11 10:42:40">2023-12-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/12/07/%E5%B8%B8%E8%A7%81%E5%BA%8F%E5%88%97/" title="常见序列"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/Common-Sequence.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="常见序列"/></a><div class="content"><a class="title" href="/2023/12/07/%E5%B8%B8%E8%A7%81%E5%BA%8F%E5%88%97/" title="常见序列">常见序列</a><time datetime="2023-12-07T14:03:14.758Z" title="发表于 2023-12-07 22:03:14">2023-12-07</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/10/12/%E5%A4%8D%E5%90%88%E5%AD%97%E9%9D%A2%E9%87%8F/" title="复合字面量"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/cover5.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="复合字面量"/></a><div class="content"><a class="title" href="/2023/10/12/%E5%A4%8D%E5%90%88%E5%AD%97%E9%9D%A2%E9%87%8F/" title="复合字面量">复合字面量</a><time datetime="2023-10-12T07:48:10.257Z" title="发表于 2023-10-12 15:48:10">2023-10-12</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('https://bot.zzuli.life/cover5.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By Jamth</div><div class="framework-info"><br>
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://icp.gov.moe/images/ico64.png" alt="萌备案图标">
+<br>
+<a href="https://icp.gov.moe/?keyword=20231610" target="_blank">萌ICP备20231610号</a>
+<br>
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/icp.png" alt="ICP备案图标">
+<a href="https://beian.miit.gov.cn/#/Integrated/index" style="color:white" target="_blank">湘ICP备2023019924号-1</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="https://bot.zzuli.life/utils.js"></script><script src="https://bot.zzuli.life/main.js"></script><script src="https://bot.zzuli.life/tw_cn.js"></script><script src="https://bot.zzuli.life/fancybox.umd.min.js"></script><script src="https://bot.zzuli.life/instantpage.min.js" type="module"></script><script src="https://bot.zzuli.life/lazyload.min.js"></script><div class="js-pjax"><script>if (!window.MathJax) {
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      tags: 'ams'
+    },
+    chtml: {
+      scale: 1.1
+    },
+    options: {
+      renderActions: {
+        findScript: [10, doc => {
+          for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+            const display = !!node.type.match(/; *mode=display/)
+            const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display)
+            const text = document.createTextNode('')
+            node.parentNode.replaceChild(text, node)
+            math.start = {node: text, delim: '', n: 0}
+            math.end = {node: text, delim: '', n: 0}
+            doc.math.push(math)
+          }
+        }, '']
+      }
+    }
+  }
+  
+  const script = document.createElement('script')
+  script.src = 'https://bot.zzuli.life/tex-mml-chtml.min.js'
+  script.id = 'MathJax-script'
+  script.async = true
+  document.head.appendChild(script)
+} else {
+  MathJax.startup.document.state(0)
+  MathJax.texReset()
+  MathJax.typesetPromise()
+}</script><script>(() => {
+  const $mermaid = document.querySelectorAll('#article-container .mermaid-wrap')
+  if ($mermaid.length === 0) return
+  const runMermaid = () => {
+    window.loadMermaid = true
+    const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+    Array.from($mermaid).forEach((item, index) => {
+      const mermaidSrc = item.firstElementChild
+      const mermaidThemeConfig = '%%{init:{ \'theme\':\'' + theme + '\'}}%%\n'
+      const mermaidID = 'mermaid-' + index
+      const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+
+      const renderFn = mermaid.render(mermaidID, mermaidDefinition)
+
+      const renderV10 = () => {
+        renderFn.then(({svg}) => {
+          mermaidSrc.insertAdjacentHTML('afterend', svg)
+        })
+      }
+
+      const renderV9 = svg => {
+        mermaidSrc.insertAdjacentHTML('afterend', svg)
+      }
+
+      typeof renderFn === 'string' ? renderV9(renderFn) : renderV10()
+    })
+  }
+
+  const loadMermaid = () => {
+    window.loadMermaid ? runMermaid() : getScript('https://bot.zzuli.life/mermaid.min.js').then(runMermaid)
+  }
+
+  btf.addModeChange('mermaid', runMermaid)
+
+  window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+})()</script></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div class="no-result" id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="https://bot.zzuli.life/local-search.js"></script></div></div></body></html>

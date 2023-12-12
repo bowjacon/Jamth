@@ -6,7 +6,7 @@
   <link href="https://zzuli.life/atom.xml" rel="self"/>
   
   <link href="https://zzuli.life/"/>
-  <updated>2023-12-11T09:23:24.379Z</updated>
+  <updated>2023-12-12T06:35:02.157Z</updated>
   <id>https://zzuli.life/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>Powershell常用命令</title>
     <link href="https://zzuli.life/2023/12/11/Powershell/"/>
     <id>https://zzuli.life/2023/12/11/Powershell/</id>
     <published>2023-12-11T09:06:34.428Z</published>
-    <updated>2023-12-11T09:23:24.379Z</updated>
+    <updated>2023-12-12T06:35:02.157Z</updated>
     
     
       
@@ -34,15 +34,17 @@
     
     
     
+    <category term="分类3                  （教程）" scheme="https://zzuli.life/categories/%E5%88%86%E7%B1%BB3-%EF%BC%88%E6%95%99%E7%A8%8B%EF%BC%89/"/>
+    
     
   </entry>
   
   <entry>
-    <title></title>
+    <title>Windows终端常用指令</title>
     <link href="https://zzuli.life/2023/12/11/cmd%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/"/>
     <id>https://zzuli.life/2023/12/11/cmd%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</id>
     <published>2023-12-11T07:16:37.874Z</published>
-    <updated>2023-12-11T09:14:45.898Z</updated>
+    <updated>2023-12-12T06:00:43.232Z</updated>
     
     
       
@@ -55,15 +57,19 @@
     
     
     
+    <category term="分类3                  （教程）" scheme="https://zzuli.life/categories/%E5%88%86%E7%B1%BB3-%EF%BC%88%E6%95%99%E7%A8%8B%EF%BC%89/"/>
+    
+    
+    <category term="cmd" scheme="https://zzuli.life/tags/cmd/"/>
     
   </entry>
   
   <entry>
-    <title></title>
+    <title>关于Int数组的坑</title>
     <link href="https://zzuli.life/2023/12/11/int%E6%95%B0%E7%BB%84/"/>
     <id>https://zzuli.life/2023/12/11/int%E6%95%B0%E7%BB%84/</id>
     <published>2023-12-11T02:42:40.927Z</published>
-    <updated>2023-12-11T02:50:04.547Z</updated>
+    <updated>2023-12-12T06:30:20.041Z</updated>
     
     
       
@@ -76,6 +82,10 @@
     
     
     
+    <category term="分类8                   （c语言）" scheme="https://zzuli.life/categories/%E5%88%86%E7%B1%BB8-%EF%BC%88c%E8%AF%AD%E8%A8%80%EF%BC%89/"/>
+    
+    
+    <category term="c" scheme="https://zzuli.life/tags/c/"/>
     
   </entry>
   
@@ -107,7 +117,7 @@
     <link href="https://zzuli.life/2023/10/12/%E5%A4%8D%E5%90%88%E5%AD%97%E9%9D%A2%E9%87%8F/"/>
     <id>https://zzuli.life/2023/10/12/%E5%A4%8D%E5%90%88%E5%AD%97%E9%9D%A2%E9%87%8F/</id>
     <published>2023-10-12T07:48:10.257Z</published>
-    <updated>2023-10-12T07:56:30.701Z</updated>
+    <updated>2023-12-12T06:19:40.525Z</updated>
     
     
       
@@ -122,6 +132,8 @@
     
     <category term="分类8                   （C语言）" scheme="https://zzuli.life/categories/%E5%88%86%E7%B1%BB8-%EF%BC%88C%E8%AF%AD%E8%A8%80%EF%BC%89/"/>
     
+    
+    <category term="c" scheme="https://zzuli.life/tags/c/"/>
     
   </entry>
   

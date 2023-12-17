@@ -1,9 +1,9 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>LCD1602学习指南 | Jamth</title><meta name="author" content="Jamth"><meta name="copyright" content="Jamth"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="LCD1602字符库  LCD1602介绍 LCD1602引脚介绍    引脚序号 引脚编号 介绍     1 VSS 供电负极&#x2F;电源地   2 VDD 供电正极&#x2F;电源正极   3 V0&#x2F;VEE&#x2F;VL 液晶显示偏压信号   4 RS 数据&#x2F;指令选择端   5 R&#x2F;W 读&#x2F;写选择端   6 E 使能信号   7~14 D0~D7 八位双向数据线   15 BLA 背光源正极   16 BLKK 背光">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>LCD1602学习指南 | Jamth</title><meta name="author" content="Jamth"><meta name="copyright" content="Jamth"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="LCD1602字符库 LCD1602介绍LCD1602引脚介绍    引脚序号 引脚编号 介绍     1 VSS 供电负极&#x2F;电源地   2 VDD 供电正极&#x2F;电源正极   3 V0&#x2F;VEE&#x2F;VL 液晶显示偏压信号   4 RS 数据&#x2F;指令选择端   5 R&#x2F;W 读&#x2F;写选择端   6 E 使能信号   7~14 D0~D7 八位双向数据线   15 BLA 背光源正极   16 BLKK 背光源负">
 <meta property="og:type" content="article">
 <meta property="og:title" content="LCD1602学习指南">
 <meta property="og:url" content="https://zzuli.life/2023/09/09/LCD1602%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/index.html">
 <meta property="og:site_name" content="Jamth">
-<meta property="og:description" content="LCD1602字符库  LCD1602介绍 LCD1602引脚介绍    引脚序号 引脚编号 介绍     1 VSS 供电负极&#x2F;电源地   2 VDD 供电正极&#x2F;电源正极   3 V0&#x2F;VEE&#x2F;VL 液晶显示偏压信号   4 RS 数据&#x2F;指令选择端   5 R&#x2F;W 读&#x2F;写选择端   6 E 使能信号   7~14 D0~D7 八位双向数据线   15 BLA 背光源正极   16 BLKK 背光">
+<meta property="og:description" content="LCD1602字符库 LCD1602介绍LCD1602引脚介绍    引脚序号 引脚编号 介绍     1 VSS 供电负极&#x2F;电源地   2 VDD 供电正极&#x2F;电源正极   3 V0&#x2F;VEE&#x2F;VL 液晶显示偏压信号   4 RS 数据&#x2F;指令选择端   5 R&#x2F;W 读&#x2F;写选择端   6 E 使能信号   7~14 D0~D7 八位双向数据线   15 BLA 背光源正极   16 BLKK 背光源负">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://bot.zzuli.life/20x2Display.jpg">
 <meta property="article:published_time" content="2023-09-09T13:41:55.815Z">
@@ -194,10 +194,8 @@ if (false) {
 document.addEventListener('pjax:send', () => {
   Pace.restart()
 })
-</script><link rel="stylesheet" href="https://bot.zzuli.life/pace.css"/><script src="https://bot.zzuli.life/pace.min.js"></script><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">29</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">11</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友站</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg fixed" id="page-header" style="background-image: url('https://bot.zzuli.life/20x2Display.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="Jamth"><img class="site-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/icon32.ico"/><span class="site-name">Jamth</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友站</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">LCD1602学习指南</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-09-09T13:41:55.815Z" title="发表于 2023-09-09 21:41:55">2023-09-09</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-09-29T05:39:19.672Z" title="更新于 2023-09-29 13:39:19">2023-09-29</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%88%86%E7%B1%BB7-%EF%BC%88%E5%8D%95%E7%89%87%E6%9C%BA%EF%BC%89/">分类7                   （单片机）</a></span></div><div class="meta-secondline"></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1>LCD1602字符库</h1>
-<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/LCD1602.png" alt=""></p>
-<h1>LCD1602介绍</h1>
-<h2 id="LCD1602引脚介绍">LCD1602引脚介绍</h2>
+</script><link rel="stylesheet" href="https://bot.zzuli.life/pace.css"/><script src="https://bot.zzuli.life/pace.min.js"></script><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">29</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">11</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友站</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg fixed" id="page-header" style="background-image: url('https://bot.zzuli.life/20x2Display.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="Jamth"><img class="site-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/icon32.ico"/><span class="site-name">Jamth</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友站</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">LCD1602学习指南</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-09-09T13:41:55.815Z" title="发表于 2023-09-09 21:41:55">2023-09-09</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-09-29T05:39:19.672Z" title="更新于 2023-09-29 13:39:19">2023-09-29</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%88%86%E7%B1%BB7-%EF%BC%88%E5%8D%95%E7%89%87%E6%9C%BA%EF%BC%89/">分类7                   （单片机）</a></span></div><div class="meta-secondline"></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="LCD1602字符库"><a href="#LCD1602字符库" class="headerlink" title="LCD1602字符库"></a>LCD1602字符库</h1><p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/LCD1602.png" alt=""></p>
+<h1 id="LCD1602介绍"><a href="#LCD1602介绍" class="headerlink" title="LCD1602介绍"></a>LCD1602介绍</h1><h2 id="LCD1602引脚介绍"><a href="#LCD1602引脚介绍" class="headerlink" title="LCD1602引脚介绍"></a>LCD1602引脚介绍</h2><div class="table-container">
 <table>
 <thead>
 <tr>
@@ -254,7 +252,8 @@ document.addEventListener('pjax:send', () => {
 </tr>
 </tbody>
 </table>
-<h2 id="LCD1602参数介绍">LCD1602参数介绍</h2>
+</div>
+<h2 id="LCD1602参数介绍"><a href="#LCD1602参数介绍" class="headerlink" title="LCD1602参数介绍"></a>LCD1602参数介绍</h2><div class="table-container">
 <table>
 <thead>
 <tr>
@@ -293,18 +292,13 @@ document.addEventListener('pjax:send', () => {
 </tr>
 </tbody>
 </table>
-<h1>LCD1602存储介绍</h1>
-<h2 id="DDRAM">DDRAM</h2>
-<p><strong>DDRAM</strong>(Display Data RAM)是用来存储显示在屏幕上的字符的一个存储器。</p>
+</div>
+<h1 id="LCD1602存储介绍"><a href="#LCD1602存储介绍" class="headerlink" title="LCD1602存储介绍"></a>LCD1602存储介绍</h1><h2 id="DDRAM"><a href="#DDRAM" class="headerlink" title="DDRAM"></a>DDRAM</h2><p><strong>DDRAM</strong>(Display Data RAM)是用来存储显示在屏幕上的字符的一个存储器。</p>
 <p>该存储器一共可以存储40x2个字符，存储器内部结构示意图如下:</p>
 <p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/2-2.png" alt=""></p>
-<h2 id="CGROM">CGROM</h2>
-<p><strong>CGROM</strong>(Character Generator ROM)字模存储用空间。你要显示某个ASCII字符时，要显示字符的字模就存在这里。</p>
-<h2 id="CGRAM">CGRAM</h2>
-<p><strong>CGRAM</strong>(Character Generator RAM)用于存储我们自定义的字符,64字节的字符容量，即用户可以自定义8个5x7的矩阵</p>
-<h1>LCD1602指令介绍</h1>
-<h2 id="清屏指令">清屏指令</h2>
-<table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="573" style="width:430.05pt;border-collapse:collapse;mso-yfti-tbllook:1184;
+<h2 id="CGROM"><a href="#CGROM" class="headerlink" title="CGROM"></a>CGROM</h2><p><strong>CGROM</strong>(Character Generator ROM)字模存储用空间。你要显示某个ASCII字符时，要显示字符的字模就存在这里。</p>
+<h2 id="CGRAM"><a href="#CGRAM" class="headerlink" title="CGRAM"></a>CGRAM</h2><p><strong>CGRAM</strong>(Character Generator RAM)用于存储我们自定义的字符,64字节的字符容量，即用户可以自定义8个5x7的矩阵</p>
+<h1 id="LCD1602指令介绍"><a href="#LCD1602指令介绍" class="headerlink" title="LCD1602指令介绍"></a>LCD1602指令介绍</h1><h2 id="清屏指令"><a href="#清屏指令" class="headerlink" title="清屏指令"></a>清屏指令</h2><table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="573" style="width:430.05pt;border-collapse:collapse;mso-yfti-tbllook:1184;
  mso-padding-alt:0cm 5.4pt 0cm 5.4pt"><tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:14.4pt"><td width="128" nowrap="" rowspan="2" style="width:96.0pt;border:solid windowtext 1.0pt;
   padding:0cm 5.4pt 0cm 5.4pt;height:14.4pt"><p class="MsoNormal" align="center" style="text-align:center;mso-pagination:widow-orphan"><span style="font-size:11.0pt;mso-ascii-font-family:等线;mso-fareast-font-family:
   等线;mso-hansi-font-family:等线;mso-bidi-font-family:宋体;color:black;mso-font-kerning:
@@ -405,10 +399,17 @@ document.addEventListener('pjax:send', () => {
   等线;mso-hansi-font-family:等线;mso-bidi-font-family:宋体;color:black;mso-font-kerning:
   0pt">1.64<o:p></o:p></span></p></td></tr></tbody></table>
 指令功能描述:
-<p>&lt;1&gt; 清除液晶显示器，即将 DDRAM 的内容全部填入"空白"的 ASCII 码 20H;</p>
-<p>&lt;2&gt; 光标归位，即将光标撤回液晶显示屏的左上方;</p>
-<p>&lt;3&gt; 将地址计数器(AC)的值设为 0。</p>
-<h2 id="光标归位指令">光标归位指令</h2>
+
+&lt;1&gt; 清除液晶显示器，即将 DDRAM 的内容全部填入"空白"的 ASCII 码 20H;  
+
+&lt;2&gt; 光标归位，即将光标撤回液晶显示屏的左上方; 
+
+ &lt;3&gt; 将地址计数器(AC)的值设为 0。
+
+
+
+## 光标归位指令
+
 <table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="573" style="width:430.05pt;border-collapse:collapse;mso-yfti-tbllook:1184;
  mso-padding-alt:0cm 5.4pt 0cm 5.4pt"><tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:14.4pt"><td width="128" nowrap="" rowspan="2" style="width:96.0pt;border:solid windowtext 1.0pt;
   padding:0cm 5.4pt 0cm 5.4pt;height:14.4pt"><p class="MsoNormal" align="center" style="text-align:center;mso-pagination:widow-orphan"><span style="font-size:11.0pt;mso-ascii-font-family:等线;mso-fareast-font-family:
@@ -509,12 +510,12 @@ document.addEventListener('pjax:send', () => {
   padding:0cm 5.4pt 0cm 5.4pt;height:14.4pt"><p class="MsoNormal" align="center" style="text-align:center;mso-pagination:widow-orphan"><span lang="EN-US" style="font-size:11.0pt;mso-ascii-font-family:等线;mso-fareast-font-family:
   等线;mso-hansi-font-family:等线;mso-bidi-font-family:宋体;color:black;mso-font-kerning:
   0pt">1.64<o:p></o:p></span></p></td></tr></tbody></table>
+
 <p>指令功能描述:</p>
-<p>&lt;1&gt; 把光标撤回到显示器的左上方;</p>
-<p>&lt;2&gt; 把地址计数器(AC)的值设置为 0;</p>
-<p>&lt;3&gt; 保持 DDRAM 的内容不变。</p>
-<h2 id="模式设置">模式设置</h2>
-<table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="573" style="width:430.05pt;border-collapse:collapse;mso-yfti-tbllook:1184;
+<p>&lt;1&gt; 把光标撤回到显示器的左上方;  <!--1--></p>
+<p>&lt;2&gt; 把地址计数器(AC)的值设置为 0;  <!--2--></p>
+<p>&lt;3&gt; 保持 DDRAM 的内容不变。<!--3--></p>
+<h2 id="模式设置"><a href="#模式设置" class="headerlink" title="模式设置"></a>模式设置</h2><table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="573" style="width:430.05pt;border-collapse:collapse;mso-yfti-tbllook:1184;
  mso-padding-alt:0cm 5.4pt 0cm 5.4pt"><tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:14.4pt"><td width="128" nowrap="" rowspan="2" style="width:96.0pt;border:solid windowtext 1.0pt;
   padding:0cm 5.4pt 0cm 5.4pt;height:14.4pt"><p class="MsoNormal" align="center" style="text-align:center;mso-pagination:widow-orphan"><span style="font-size:11.0pt;mso-ascii-font-family:等线;mso-fareast-font-family:
   等线;mso-hansi-font-family:等线;mso-bidi-font-family:宋体;color:black;mso-font-kerning:
@@ -615,29 +616,18 @@ document.addEventListener('pjax:send', () => {
   等线;mso-hansi-font-family:等线;mso-bidi-font-family:宋体;color:black;mso-font-kerning:
   0pt">40<o:p></o:p></span></p></td></tr></tbody></table>
 指令功能描述:
-<p>设定每次定入 1 位数据后光标的移位方向，并且设定每次写入的一个 字符是否移动。</p>
-<table>
-<thead>
-<tr>
-<th>位名</th>
-<th>Low</th>
-<th>High</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>I/D</td>
-<td>写入新数据后光标左移</td>
-<td>写入新数据后关闭右移</td>
-</tr>
-<tr>
-<td>S</td>
-<td>写入新数据后显示屏不移动</td>
-<td>写入新数据后显示屏整体右移1个字符</td>
-</tr>
-</tbody>
-</table>
-<h2 id="显示开关控制指令">显示开关控制指令</h2>
+
+设定每次定入 1 位数据后光标的移位方向，并且设定每次写入的一个 字符是否移动。
+
+| 位名 | Low                      | High                              |
+| ---- | ------------------------ | --------------------------------- |
+| I/D  | 写入新数据后光标左移     | 写入新数据后关闭右移              |
+| S    | 写入新数据后显示屏不移动 | 写入新数据后显示屏整体右移1个字符 |
+
+
+
+## 显示开关控制指令
+
 <table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="573" style="width:430.05pt;border-collapse:collapse;mso-yfti-tbllook:1184;
  mso-padding-alt:0cm 5.4pt 0cm 5.4pt"><tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:14.4pt"><td width="128" nowrap="" rowspan="2" style="width:96.0pt;border:solid windowtext 1.0pt;
   padding:0cm 5.4pt 0cm 5.4pt;height:14.4pt"><p class="MsoNormal" align="center" style="text-align:center;mso-pagination:widow-orphan"><span style="font-size:11.0pt;mso-ascii-font-family:等线;mso-fareast-font-family:
@@ -738,8 +728,10 @@ document.addEventListener('pjax:send', () => {
   padding:0cm 5.4pt 0cm 5.4pt;height:14.4pt"><p class="MsoNormal" align="center" style="text-align:center;mso-pagination:widow-orphan"><span lang="EN-US" style="font-size:11.0pt;mso-ascii-font-family:等线;mso-fareast-font-family:
   等线;mso-hansi-font-family:等线;mso-bidi-font-family:宋体;color:black;mso-font-kerning:
     0pt">40<o:p></o:p></span></p></td></tr></tbody></table>
+
 <p>指令功能描述:</p>
 <p>控制显示器开/关、光标显示/关闭以及光标是否闪烁。</p>
+<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -766,8 +758,8 @@ document.addEventListener('pjax:send', () => {
 </tr>
 </tbody>
 </table>
-<h2 id="设置显示屏或光标移动方向指令">设置显示屏或光标移动方向指令</h2>
-<table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="593" style="width:445.0pt;border-collapse:collapse;mso-yfti-tbllook:1184;
+</div>
+<h2 id="设置显示屏或光标移动方向指令"><a href="#设置显示屏或光标移动方向指令" class="headerlink" title="设置显示屏或光标移动方向指令"></a>设置显示屏或光标移动方向指令</h2><table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="593" style="width:445.0pt;border-collapse:collapse;mso-yfti-tbllook:1184;
  mso-padding-alt:0cm 5.4pt 0cm 5.4pt"><tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:14.4pt"><td width="148" rowspan="2" style="width:111.0pt;border:solid windowtext 1.0pt;
   padding:0cm 5.4pt 0cm 5.4pt;height:14.4pt"><p class="MsoNormal" align="center" style="text-align:center;mso-pagination:widow-orphan"><span style="font-size:11.0pt;mso-ascii-font-family:等线;mso-fareast-font-family:
   等线;mso-hansi-font-family:等线;mso-bidi-font-family:宋体;color:black;mso-font-kerning:
@@ -865,8 +857,11 @@ document.addEventListener('pjax:send', () => {
   padding:0cm 5.4pt 0cm 5.4pt;height:14.4pt"><p class="MsoNormal" align="center" style="text-align:center;mso-pagination:widow-orphan"><span lang="EN-US" style="font-size:11.0pt;mso-ascii-font-family:等线;mso-fareast-font-family:
   等线;mso-hansi-font-family:等线;mso-bidi-font-family:宋体;color:black;mso-font-kerning:
   0pt">40<o:p></o:p></span></p></td></tr></tbody></table>
+
+
 <p>指令功能描述:</p>
 <p>设定数据总线位数、显示的行数及字型。</p>
+<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -898,8 +893,8 @@ document.addEventListener('pjax:send', () => {
 </tr>
 </tbody>
 </table>
-<h2 id="功能设定指令">功能设定指令</h2>
-<table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="573" style="width:430.05pt;border-collapse:collapse;mso-yfti-tbllook:1184;
+</div>
+<h2 id="功能设定指令"><a href="#功能设定指令" class="headerlink" title="功能设定指令"></a>功能设定指令</h2><table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="573" style="width:430.05pt;border-collapse:collapse;mso-yfti-tbllook:1184;
  mso-padding-alt:0cm 5.4pt 0cm 5.4pt"><tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:14.4pt"><td width="128" nowrap="" rowspan="2" style="width:96.0pt;border:solid windowtext 1.0pt;
   padding:0cm 5.4pt 0cm 5.4pt;height:14.4pt"><p class="MsoNormal" align="center" style="text-align:center;mso-pagination:widow-orphan"><span style="font-size:11.0pt;mso-ascii-font-family:等线;mso-fareast-font-family:
   等线;mso-hansi-font-family:等线;mso-bidi-font-family:宋体;color:black;mso-font-kerning:
@@ -1000,34 +995,21 @@ document.addEventListener('pjax:send', () => {
   等线;mso-hansi-font-family:等线;mso-bidi-font-family:宋体;color:black;mso-font-kerning:
   0pt">40<o:p></o:p></span></p></td></tr></tbody></table>
 指令功能描述:
-<p>设定数据总线位数、显示的行数及字型</p>
-<table>
-<thead>
-<tr>
-<th>位名</th>
-<th>Low</th>
-<th>High</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>DL</td>
-<td>数据总线为4位</td>
-<td>数据总线为8位</td>
-</tr>
-<tr>
-<td>N</td>
-<td>显示1行</td>
-<td>显示2行</td>
-</tr>
-<tr>
-<td>F</td>
-<td>5x7点阵/每字符</td>
-<td>5x10/点阵每字符</td>
-</tr>
-</tbody>
-</table>
-<h2 id="设定CGRAM地址指令">设定CGRAM地址指令</h2>
+
+设定数据总线位数、显示的行数及字型
+
+
+
+| 位名 | Low            | High            |
+| ---- | -------------- | --------------- |
+| DL   | 数据总线为4位  | 数据总线为8位   |
+| N    | 显示1行        | 显示2行         |
+| F    | 5x7点阵/每字符 | 5x10/点阵每字符 |
+
+
+
+## 设定CGRAM地址指令
+
 <table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="573" style="width:430.05pt;border-collapse:collapse;mso-yfti-tbllook:1184;
  mso-padding-alt:0cm 5.4pt 0cm 5.4pt"><tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:14.4pt"><td width="128" nowrap="" rowspan="2" style="width:96.0pt;border:solid windowtext 1.0pt;
   padding:0cm 5.4pt 0cm 5.4pt;height:14.4pt"><p class="MsoNormal" align="center" style="text-align:center;mso-pagination:widow-orphan"><span style="font-size:11.0pt;mso-ascii-font-family:等线;mso-fareast-font-family:
@@ -1092,10 +1074,10 @@ document.addEventListener('pjax:send', () => {
   mso-fareast-font-family:等线;mso-hansi-font-family:等线;mso-bidi-font-family:
   宋体;color:black;mso-font-kerning:0pt">的地址<span lang="EN-US"><o:p></o:p></span></span></p></td><td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   order-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:14.4pt"><p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:11.0pt;color:black">40</span></p></td></tr></tbody></table>
+
 <p>指令功能描述:</p>
 <p>设定下一个要存入数据的 CGRAM 的地址。</p>
-<h2 id="设定DDRAM地址指令">设定DDRAM地址指令</h2>
-<table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="573" style="width:430.05pt;border-collapse:collapse;mso-yfti-tbllook:1184;
+<h2 id="设定DDRAM地址指令"><a href="#设定DDRAM地址指令" class="headerlink" title="设定DDRAM地址指令"></a>设定DDRAM地址指令</h2><table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="573" style="width:430.05pt;border-collapse:collapse;mso-yfti-tbllook:1184;
  mso-padding-alt:0cm 5.4pt 0cm 5.4pt"><tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:14.4pt"><td width="128" nowrap="" rowspan="2" style="width:96.0pt;border:solid windowtext 1.0pt;
   padding:0cm 5.4pt 0cm 5.4pt;height:14.4pt"><p class="MsoNormal" align="center" style="text-align:center;mso-pagination:widow-orphan"><span style="font-size:11.0pt;mso-ascii-font-family:等线;mso-fareast-font-family:
   等线;mso-hansi-font-family:等线;mso-bidi-font-family:宋体;color:black;mso-font-kerning:
@@ -1158,10 +1140,10 @@ document.addEventListener('pjax:send', () => {
   border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:14.4pt"><p class="MsoNormal" align="center" style="text-align:center;mso-pagination:widow-orphan"><span lang="EN-US" style="font-size:11.0pt;mso-ascii-font-family:等线;mso-fareast-font-family:
   等线;mso-hansi-font-family:等线;mso-bidi-font-family:宋体;color:black;mso-font-kerning:
   0pt">40<o:p></o:p></span></p></td></tr></tbody></table>
+
 <p>指令功能描述:</p>
 <p>设定下一个要存入数据的 DDRAM 的地址。</p>
-<h2 id="读取忙信号或AC地址">读取忙信号或AC地址</h2>
-<table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="573" style="width:430.05pt;border-collapse:collapse;mso-yfti-tbllook:1184;
+<h2 id="读取忙信号或AC地址"><a href="#读取忙信号或AC地址" class="headerlink" title="读取忙信号或AC地址"></a>读取忙信号或AC地址</h2><table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="573" style="width:430.05pt;border-collapse:collapse;mso-yfti-tbllook:1184;
  mso-padding-alt:0cm 5.4pt 0cm 5.4pt"><tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:14.4pt"><td width="128" nowrap="" rowspan="2" style="width:96.0pt;border:solid windowtext 1.0pt;
   padding:0cm 5.4pt 0cm 5.4pt;height:14.4pt"><p class="MsoNormal" align="center" style="text-align:center;mso-pagination:widow-orphan"><span style="font-size:11.0pt;mso-ascii-font-family:等线;mso-fareast-font-family:
   等线;mso-hansi-font-family:等线;mso-bidi-font-family:宋体;color:black;mso-font-kerning:
@@ -1224,11 +1206,11 @@ document.addEventListener('pjax:send', () => {
   border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:14.4pt"><p class="MsoNormal" align="center" style="text-align:center;mso-pagination:widow-orphan"><span lang="EN-US" style="font-size:11.0pt;mso-ascii-font-family:等线;mso-fareast-font-family:
   等线;mso-hansi-font-family:等线;mso-bidi-font-family:宋体;color:black;mso-font-kerning:
   0pt">40<o:p></o:p></span></p></td></tr></tbody></table>
+
 <p>指令功能描述:</p>
-<p>&lt;1&gt; 读取忙碌信号 BF 的内容，BF=1 表示液晶显示器忙，暂时无法接收单 片机送来的数据或指令;  当 BF=0 时，液晶显示器可以接收单片机送来的数据或指令;</p>
-<p>&lt;2&gt; 读取地址计数器(AC)的内容。</p>
-<h2 id="数据写入">数据写入</h2>
-<table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="573" style="width:430.05pt;border-collapse:collapse;mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
+<p>&lt;1&gt; 读取忙碌信号 BF 的内容，BF=1 表示液晶显示器忙，暂时无法接收单 片机送来的数据或指令;  当 BF=0 时，液晶显示器可以接收单片机送来的数据或指令;  <!--1--></p>
+<p>&lt;2&gt; 读取地址计数器(AC)的内容。<!--2--></p>
+<h2 id="数据写入"><a href="#数据写入" class="headerlink" title="数据写入"></a>数据写入</h2><table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="573" style="width:430.05pt;border-collapse:collapse;mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
   <tbody>
     <tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:14.4pt">
       <td width="128" nowrap="" rowspan="2" style="width:96.0pt;border:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:14.4pt">
@@ -1329,9 +1311,17 @@ document.addEventListener('pjax:send', () => {
   </tbody>
 </table>
 指令功能描述:
-<p>&lt;1&gt; 将字符库相应地址的字符显示出来;</p>
-<p>&lt;2&gt; 将使用者自己设计的图形存入 CGRAM。</p>
-<h2 id="数据读取">数据读取</h2>
+
+&lt;1&gt; 将字符库相应地址的字符显示出来;  
+
+&lt;2&gt; 将使用者自己设计的图形存入 CGRAM。
+
+
+
+
+
+## 数据读取
+
 <table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="573" style="width:430.05pt;border-collapse:collapse;mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
   <tbody>
     <tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:14.4pt">
@@ -1432,10 +1422,10 @@ document.addEventListener('pjax:send', () => {
     </tr>
   </tbody>
 </table>
+
 <p>指令功能描述:</p>
 <p>读取 DDRAM 或 CGRAM 中的内容。</p>
-<h1>LCD1602基本操作</h1>
-<h2 id="LCD1602读写操作">LCD1602读写操作</h2>
+<h1 id="LCD1602基本操作"><a href="#LCD1602基本操作" class="headerlink" title="LCD1602基本操作"></a>LCD1602基本操作</h1><h2 id="LCD1602读写操作"><a href="#LCD1602读写操作" class="headerlink" title="LCD1602读写操作"></a>LCD1602读写操作</h2><div class="table-container">
 <table>
 <thead>
 <tr>
@@ -1463,11 +1453,11 @@ document.addEventListener('pjax:send', () => {
 <tr>
 <td>写数据</td>
 <td>RS=1,R/W=0,D0~D7=数据,E=正脉冲</td>
-<td></td>
 </tr>
 </tbody>
 </table>
-</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://zzuli.life">Jamth</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://zzuli.life/2023/09/09/LCD1602%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/">https://zzuli.life/2023/09/09/LCD1602%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://zzuli.life" target="_blank">Jamth</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="https://bot.zzuli.life/20x2Display.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://bot.zzuli.life/share.min.css" media="print" onload="this.media='all'"><script src="https://bot.zzuli.life/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2023/09/26/Git%E9%97%AE%E9%A2%98%E6%8C%87%E5%8D%97/" title="Git问题指南"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/github_q.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Git问题指南</div></div></a></div><div class="next-post pull-right"><a href="/2023/08/31/%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4/" title="快捷指令"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://jamth.oss-cn-hangzhou.aliyuncs.com/quick.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">快捷指令</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Jamth</div><div class="author-info__description">There are certain obstacles in life that you can’t escape. Instead of going through all the trouble, it’s better to bravely climb over </div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">29</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">11</div></a></div><div class="card-info-social-icons is-center"><a class="social-icon" href="/atom.xml" target="_blank" title="RSS链接"><i class="fa fa-rss"></i></a></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">1.</span> <span class="toc-text">LCD1602字符库</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">2.</span> <span class="toc-text">LCD1602介绍</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#LCD1602%E5%BC%95%E8%84%9A%E4%BB%8B%E7%BB%8D"><span class="toc-number">2.1.</span> <span class="toc-text">LCD1602引脚介绍</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#LCD1602%E5%8F%82%E6%95%B0%E4%BB%8B%E7%BB%8D"><span class="toc-number">2.2.</span> <span class="toc-text">LCD1602参数介绍</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">3.</span> <span class="toc-text">LCD1602存储介绍</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#DDRAM"><span class="toc-number">3.1.</span> <span class="toc-text">DDRAM</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#CGROM"><span class="toc-number">3.2.</span> <span class="toc-text">CGROM</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#CGRAM"><span class="toc-number">3.3.</span> <span class="toc-text">CGRAM</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">4.</span> <span class="toc-text">LCD1602指令介绍</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B8%85%E5%B1%8F%E6%8C%87%E4%BB%A4"><span class="toc-number">4.1.</span> <span class="toc-text">清屏指令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%89%E6%A0%87%E5%BD%92%E4%BD%8D%E6%8C%87%E4%BB%A4"><span class="toc-number">4.2.</span> <span class="toc-text">光标归位指令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A8%A1%E5%BC%8F%E8%AE%BE%E7%BD%AE"><span class="toc-number">4.3.</span> <span class="toc-text">模式设置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%98%BE%E7%A4%BA%E5%BC%80%E5%85%B3%E6%8E%A7%E5%88%B6%E6%8C%87%E4%BB%A4"><span class="toc-number">4.4.</span> <span class="toc-text">显示开关控制指令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AE%BE%E7%BD%AE%E6%98%BE%E7%A4%BA%E5%B1%8F%E6%88%96%E5%85%89%E6%A0%87%E7%A7%BB%E5%8A%A8%E6%96%B9%E5%90%91%E6%8C%87%E4%BB%A4"><span class="toc-number">4.5.</span> <span class="toc-text">设置显示屏或光标移动方向指令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8A%9F%E8%83%BD%E8%AE%BE%E5%AE%9A%E6%8C%87%E4%BB%A4"><span class="toc-number">4.6.</span> <span class="toc-text">功能设定指令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AE%BE%E5%AE%9ACGRAM%E5%9C%B0%E5%9D%80%E6%8C%87%E4%BB%A4"><span class="toc-number">4.7.</span> <span class="toc-text">设定CGRAM地址指令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AE%BE%E5%AE%9ADDRAM%E5%9C%B0%E5%9D%80%E6%8C%87%E4%BB%A4"><span class="toc-number">4.8.</span> <span class="toc-text">设定DDRAM地址指令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AF%BB%E5%8F%96%E5%BF%99%E4%BF%A1%E5%8F%B7%E6%88%96AC%E5%9C%B0%E5%9D%80"><span class="toc-number">4.9.</span> <span class="toc-text">读取忙信号或AC地址</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E5%86%99%E5%85%A5"><span class="toc-number">4.10.</span> <span class="toc-text">数据写入</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E8%AF%BB%E5%8F%96"><span class="toc-number">4.11.</span> <span class="toc-text">数据读取</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">5.</span> <span class="toc-text">LCD1602基本操作</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#LCD1602%E8%AF%BB%E5%86%99%E6%93%8D%E4%BD%9C"><span class="toc-number">5.1.</span> <span class="toc-text">LCD1602读写操作</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2023/12/17/%E5%BC%80%E9%80%9A%E5%92%8C%E4%BD%BF%E7%94%A8%E5%9B%BE%E7%89%87%E5%A4%84%E7%90%86/" title="无题"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/process-cdn.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="无题"/></a><div class="content"><a class="title" href="/2023/12/17/%E5%BC%80%E9%80%9A%E5%92%8C%E4%BD%BF%E7%94%A8%E5%9B%BE%E7%89%87%E5%A4%84%E7%90%86/" title="无题">无题</a><time datetime="2023-12-17T05:22:58.442Z" title="发表于 2023-12-17 13:22:58">2023-12-17</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/12/11/Powershell/" title="Powershell常用命令"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/powershell-cmd.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Powershell常用命令"/></a><div class="content"><a class="title" href="/2023/12/11/Powershell/" title="Powershell常用命令">Powershell常用命令</a><time datetime="2023-12-11T09:06:34.428Z" title="发表于 2023-12-11 17:06:34">2023-12-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/12/11/cmd%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/" title="Windows终端常用指令"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/windows-cmd.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Windows终端常用指令"/></a><div class="content"><a class="title" href="/2023/12/11/cmd%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/" title="Windows终端常用指令">Windows终端常用指令</a><time datetime="2023-12-11T07:16:37.874Z" title="发表于 2023-12-11 15:16:37">2023-12-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/12/11/int%E6%95%B0%E7%BB%84/" title="关于Int数组的坑"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/int-cover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="关于Int数组的坑"/></a><div class="content"><a class="title" href="/2023/12/11/int%E6%95%B0%E7%BB%84/" title="关于Int数组的坑">关于Int数组的坑</a><time datetime="2023-12-11T02:42:40.927Z" title="发表于 2023-12-11 10:42:40">2023-12-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/12/07/%E5%B8%B8%E8%A7%81%E5%BA%8F%E5%88%97/" title="常见序列"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/Common-Sequence.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="常见序列"/></a><div class="content"><a class="title" href="/2023/12/07/%E5%B8%B8%E8%A7%81%E5%BA%8F%E5%88%97/" title="常见序列">常见序列</a><time datetime="2023-12-07T14:03:14.758Z" title="发表于 2023-12-07 22:03:14">2023-12-07</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('https://bot.zzuli.life/20x2Display.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By Jamth</div><div class="framework-info"><br>
+</div>
+<!--2--><!--1--><!--3--><!--2--><!--1--></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://zzuli.life">Jamth</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://zzuli.life/2023/09/09/LCD1602%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/">https://zzuli.life/2023/09/09/LCD1602%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://zzuli.life" target="_blank">Jamth</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="https://bot.zzuli.life/20x2Display.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://bot.zzuli.life/share.min.css" media="print" onload="this.media='all'"><script src="https://bot.zzuli.life/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2023/09/26/Git%E9%97%AE%E9%A2%98%E6%8C%87%E5%8D%97/" title="Git问题指南"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/github_q.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Git问题指南</div></div></a></div><div class="next-post pull-right"><a href="/2023/08/31/%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4/" title="快捷指令"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://jamth.oss-cn-hangzhou.aliyuncs.com/quick.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">快捷指令</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Jamth</div><div class="author-info__description">There are certain obstacles in life that you can’t escape. Instead of going through all the trouble, it’s better to bravely climb over </div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">29</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">11</div></a></div><div class="card-info-social-icons is-center"><a class="social-icon" href="/atom.xml" target="_blank" title="RSS链接"><i class="fa fa-rss"></i></a></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#LCD1602%E5%AD%97%E7%AC%A6%E5%BA%93"><span class="toc-number">1.</span> <span class="toc-text">LCD1602字符库</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#LCD1602%E4%BB%8B%E7%BB%8D"><span class="toc-number">2.</span> <span class="toc-text">LCD1602介绍</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#LCD1602%E5%BC%95%E8%84%9A%E4%BB%8B%E7%BB%8D"><span class="toc-number">2.1.</span> <span class="toc-text">LCD1602引脚介绍</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#LCD1602%E5%8F%82%E6%95%B0%E4%BB%8B%E7%BB%8D"><span class="toc-number">2.2.</span> <span class="toc-text">LCD1602参数介绍</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#LCD1602%E5%AD%98%E5%82%A8%E4%BB%8B%E7%BB%8D"><span class="toc-number">3.</span> <span class="toc-text">LCD1602存储介绍</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#DDRAM"><span class="toc-number">3.1.</span> <span class="toc-text">DDRAM</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#CGROM"><span class="toc-number">3.2.</span> <span class="toc-text">CGROM</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#CGRAM"><span class="toc-number">3.3.</span> <span class="toc-text">CGRAM</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#LCD1602%E6%8C%87%E4%BB%A4%E4%BB%8B%E7%BB%8D"><span class="toc-number">4.</span> <span class="toc-text">LCD1602指令介绍</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B8%85%E5%B1%8F%E6%8C%87%E4%BB%A4"><span class="toc-number">4.1.</span> <span class="toc-text">清屏指令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A8%A1%E5%BC%8F%E8%AE%BE%E7%BD%AE"><span class="toc-number">4.2.</span> <span class="toc-text">模式设置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AE%BE%E7%BD%AE%E6%98%BE%E7%A4%BA%E5%B1%8F%E6%88%96%E5%85%89%E6%A0%87%E7%A7%BB%E5%8A%A8%E6%96%B9%E5%90%91%E6%8C%87%E4%BB%A4"><span class="toc-number">4.3.</span> <span class="toc-text">设置显示屏或光标移动方向指令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8A%9F%E8%83%BD%E8%AE%BE%E5%AE%9A%E6%8C%87%E4%BB%A4"><span class="toc-number">4.4.</span> <span class="toc-text">功能设定指令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AE%BE%E5%AE%9ADDRAM%E5%9C%B0%E5%9D%80%E6%8C%87%E4%BB%A4"><span class="toc-number">4.5.</span> <span class="toc-text">设定DDRAM地址指令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AF%BB%E5%8F%96%E5%BF%99%E4%BF%A1%E5%8F%B7%E6%88%96AC%E5%9C%B0%E5%9D%80"><span class="toc-number">4.6.</span> <span class="toc-text">读取忙信号或AC地址</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E5%86%99%E5%85%A5"><span class="toc-number">4.7.</span> <span class="toc-text">数据写入</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#LCD1602%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C"><span class="toc-number">5.</span> <span class="toc-text">LCD1602基本操作</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#LCD1602%E8%AF%BB%E5%86%99%E6%93%8D%E4%BD%9C"><span class="toc-number">5.1.</span> <span class="toc-text">LCD1602读写操作</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2023/12/17/%E5%BC%80%E9%80%9A%E5%92%8C%E4%BD%BF%E7%94%A8%E5%9B%BE%E7%89%87%E5%A4%84%E7%90%86/" title="CDN图像处理"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/process-cdn.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="CDN图像处理"/></a><div class="content"><a class="title" href="/2023/12/17/%E5%BC%80%E9%80%9A%E5%92%8C%E4%BD%BF%E7%94%A8%E5%9B%BE%E7%89%87%E5%A4%84%E7%90%86/" title="CDN图像处理">CDN图像处理</a><time datetime="2023-12-17T05:22:58.442Z" title="发表于 2023-12-17 13:22:58">2023-12-17</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/12/11/Powershell/" title="Powershell常用命令"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/powershell-cmd.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Powershell常用命令"/></a><div class="content"><a class="title" href="/2023/12/11/Powershell/" title="Powershell常用命令">Powershell常用命令</a><time datetime="2023-12-11T09:06:34.428Z" title="发表于 2023-12-11 17:06:34">2023-12-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/12/11/cmd%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/" title="Windows终端常用指令"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/windows-cmd.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Windows终端常用指令"/></a><div class="content"><a class="title" href="/2023/12/11/cmd%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/" title="Windows终端常用指令">Windows终端常用指令</a><time datetime="2023-12-11T07:16:37.874Z" title="发表于 2023-12-11 15:16:37">2023-12-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/12/11/int%E6%95%B0%E7%BB%84/" title="关于Int数组的坑"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/int-cover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="关于Int数组的坑"/></a><div class="content"><a class="title" href="/2023/12/11/int%E6%95%B0%E7%BB%84/" title="关于Int数组的坑">关于Int数组的坑</a><time datetime="2023-12-11T02:42:40.927Z" title="发表于 2023-12-11 10:42:40">2023-12-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/12/07/%E5%B8%B8%E8%A7%81%E5%BA%8F%E5%88%97/" title="常见序列"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/Common-Sequence.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="常见序列"/></a><div class="content"><a class="title" href="/2023/12/07/%E5%B8%B8%E8%A7%81%E5%BA%8F%E5%88%97/" title="常见序列">常见序列</a><time datetime="2023-12-07T14:03:14.758Z" title="发表于 2023-12-07 22:03:14">2023-12-07</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('https://bot.zzuli.life/20x2Display.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By Jamth</div><div class="framework-info"><br>
 <img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://icp.gov.moe/images/ico64.png" alt="萌备案图标">
 <br>
 <a href="https://icp.gov.moe/?keyword=20231610" target="_blank">萌ICP备20231610号</a>

@@ -6,7 +6,7 @@
   <link href="https://zzuli.life/atom.xml" rel="self"/>
   
   <link href="https://zzuli.life/"/>
-  <updated>2023-12-12T06:59:01.819Z</updated>
+  <updated>2023-12-17T05:59:46.699Z</updated>
   <id>https://zzuli.life/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title></title>
+    <link href="https://zzuli.life/2023/12/17/%E5%BC%80%E9%80%9A%E5%92%8C%E4%BD%BF%E7%94%A8%E5%9B%BE%E7%89%87%E5%A4%84%E7%90%86/"/>
+    <id>https://zzuli.life/2023/12/17/%E5%BC%80%E9%80%9A%E5%92%8C%E4%BD%BF%E7%94%A8%E5%9B%BE%E7%89%87%E5%A4%84%E7%90%86/</id>
+    <published>2023-12-17T05:22:58.442Z</published>
+    <updated>2023-12-17T05:59:46.699Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="分类3                   （教程）" scheme="https://zzuli.life/categories/%E5%88%86%E7%B1%BB3-%EF%BC%88%E6%95%99%E7%A8%8B%EF%BC%89/"/>
+    
+    
+    <category term="转载" scheme="https://zzuli.life/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Powershell常用命令</title>
     <link href="https://zzuli.life/2023/12/11/Powershell/"/>
     <id>https://zzuli.life/2023/12/11/Powershell/</id>
     <published>2023-12-11T09:06:34.428Z</published>
-    <updated>2023-12-12T06:59:01.819Z</updated>
+    <updated>2023-12-17T05:32:31.844Z</updated>
     
     
       
@@ -455,29 +480,6 @@
     
     
     <category term="分类3                   （教程）" scheme="https://zzuli.life/categories/%E5%88%86%E7%B1%BB3-%EF%BC%88%E6%95%99%E7%A8%8B%EF%BC%89/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>单片机知识扫盲</title>
-    <link href="https://zzuli.life/2023/08/24/%E5%8D%95%E7%89%87%E6%9C%BA%E7%9F%A5%E8%AF%86%E6%89%AB%E7%9B%B2/"/>
-    <id>https://zzuli.life/2023/08/24/%E5%8D%95%E7%89%87%E6%9C%BA%E7%9F%A5%E8%AF%86%E6%89%AB%E7%9B%B2/</id>
-    <published>2023-08-24T03:56:03.819Z</published>
-    <updated>2023-09-29T06:23:23.309Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="分类7                   （单片机）" scheme="https://zzuli.life/categories/%E5%88%86%E7%B1%BB7-%EF%BC%88%E5%8D%95%E7%89%87%E6%9C%BA%EF%BC%89/"/>
     
     
   </entry>

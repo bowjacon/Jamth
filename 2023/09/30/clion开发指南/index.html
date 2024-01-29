@@ -198,7 +198,7 @@ document.addEventListener('pjax:send', () => {
 <blockquote>
 <p>配置流程图</p>
 </blockquote>
-<div class="mermaid-wrap"><pre class="mermaid-src" hidden>  graph TD;
+<div class="mermaid-wrap"><pre class="mermaid-src" hidden="">  graph TD;
 
     A["设置时钟源"]--&gt;B["设置时钟树"];
     B--&gt;C["设置相关功能"];
@@ -214,41 +214,41 @@ document.addEventListener('pjax:send', () => {
 <blockquote>
 <p>如果使用的为Clion，则需要将MDK-ARM替换为STM32CubeIDE</p>
 </blockquote>
-<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/image-20230930112325764.png" alt></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/image-20230930112325764.png" alt=""></p>
 <h2 id="clion工程烧录">clion工程烧录</h2>
 <h3 id="添加缺失头文件">添加缺失头文件</h3>
 <mark class="hl-label blue">出现问题</mark> 
 <blockquote>
 <p>如果是自己新建的初始工程,在编译时会提示缺少"Core_cm3"等头文件,而在咱们项目工程中已提供了相关的头文件</p>
 </blockquote>
-<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/image-20230930104313470.png" alt></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/image-20230930104313470.png" alt=""></p>
 <mark class="hl-label blue">解决方法</mark> 
 <blockquote>
 <p>将头文件复制到"Inc"中即可</p>
 </blockquote>
-<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/image-20230930105717800.png" alt></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/image-20230930105717800.png" alt=""></p>
 <h3 id="配置烧录器">配置烧录器</h3>
 <mark class="hl-label blue">烧录器驱动</mark> 
 <blockquote>
 <p>在我们工程根目录下已配置"CMISIS_DAP.cfg文件"，同样复制到你项目的根目录下</p>
 </blockquote>
-<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/image-20230930110354607.png" alt></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/image-20230930110354607.png" alt=""></p>
 <blockquote>
 <p>在Clion上面找到编译器选择编辑</p>
 </blockquote>
-<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/image-20230930110520804.png" alt></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/image-20230930110520804.png" alt=""></p>
 <blockquote>
 <p>进入"编辑配置模板"</p>
 </blockquote>
-<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/image-20230930110712130.png" alt></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/image-20230930110712130.png" alt=""></p>
 <blockquote>
 <p>在左边侧边栏找到"OpenOCD"，并点击更多选项</p>
 </blockquote>
-<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/image-20230930110848697.png" alt></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/image-20230930110848697.png" alt=""></p>
 <blockquote>
 <p>点击上方第三个图标(当前目录),找到你复制的"CMSIS_DAP.cfg"文件，并点击确定</p>
 </blockquote>
-<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/image-20230930111012084.png" alt></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/image-20230930111012084.png" alt=""></p>
 <blockquote>
 <p>最后若显示如有"芯片"标志(如之前的图)则代表已配置成功</p>
 </blockquote>
@@ -265,8 +265,8 @@ document.addEventListener('pjax:send', () => {
 <blockquote>
 <p>仅使用"编译"功能或者为程序配置响应的板子驱动</p>
 </blockquote>
-<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/image-20231004103246119.png" alt></p>
-<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/image-20231004103540134.png" alt></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/image-20231004103246119.png" alt=""></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://bot.zzuli.life/image-20231004103540134.png" alt=""></p>
 <mark class="hl-label pink">问题</mark> 
 <blockquote>
 <p>STM32CuBeMX未生成.elf文件</p>

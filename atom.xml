@@ -6,7 +6,7 @@
   <link href="https://zzuli.life/atom.xml" rel="self"/>
   
   <link href="https://zzuli.life/"/>
-  <updated>2024-03-03T13:34:17.394Z</updated>
+  <updated>2024-03-04T14:29:11.329Z</updated>
   <id>https://zzuli.life/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>大唐杯笔记:Day4</title>
+    <link href="https://zzuli.life/2024/03/04/issue4/"/>
+    <id>https://zzuli.life/2024/03/04/issue4/</id>
+    <published>2024-03-04T14:27:55.940Z</published>
+    <updated>2024-03-04T14:29:11.329Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="分类11                  （比赛）" scheme="https://zzuli.life/categories/%E5%88%86%E7%B1%BB11-%EF%BC%88%E6%AF%94%E8%B5%9B%EF%BC%89/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>大唐杯笔记:Day3</title>
@@ -457,29 +480,6 @@
     
     
     <category term="分类1                   （快捷指令）" scheme="https://zzuli.life/categories/%E5%88%86%E7%B1%BB1-%EF%BC%88%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4%EF%BC%89/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>串口通信</title>
-    <link href="https://zzuli.life/2023/08/27/%E4%B8%B2%E5%8F%A3%E9%80%9A%E4%BF%A1/"/>
-    <id>https://zzuli.life/2023/08/27/%E4%B8%B2%E5%8F%A3%E9%80%9A%E4%BF%A1/</id>
-    <published>2023-08-27T05:10:57.719Z</published>
-    <updated>2023-09-29T06:10:06.096Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="分类7                   （单片机）" scheme="https://zzuli.life/categories/%E5%88%86%E7%B1%BB7-%EF%BC%88%E5%8D%95%E7%89%87%E6%9C%BA%EF%BC%89/"/>
     
     
   </entry>
